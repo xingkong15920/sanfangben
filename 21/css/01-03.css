@@ -1,0 +1,117 @@
+/* 
+* @Author: Marte
+* @Date:   2017-04-10 14:57:43
+* @Last Modified by:   Marte
+* @Last Modified time: 2017-04-14 09:56:47
+*/
+  form, fieldset, legend, button, input, textarea, /* form elements 表单元素 */
+th, td /* table elements 表格元素 */ {
+    margin: 0;
+    padding: 0;
+}
+input{outline:none;}
+        a{text-decoration: none;}
+        .top{
+            width:100%;
+            height:72px;
+            border-bottom: 1px solid #ccc;
+            margin-left: 25px;}
+        .ck{
+            float:left;
+            margin-top: 30px;
+            height:30px;
+            float:left;
+            margin-top: 30px;
+            height:30px;
+        }
+        .top11{
+            font-size:14px;
+            display:block;
+        
+            line-height:30px;
+            padding:0 5px;
+            float:left;
+        }
+        .top12 {
+            font-size:14px;
+            display:block;
+        
+            line-height:30px;
+            padding:0 5px;
+            float:left;
+            background:#FF7043;
+            color:#fff;
+        }
+        .refresh{
+            float:right;
+            margin-right: 25px;
+            margin-top: 22px;
+        }
+        .select{
+            padding:10px 25px;height:25px;
+        }
+        .select span{float:left;line-height: 28px;}
+        .text-in{height:22px;float:left;margin-right: 10px;}
+        .select-in{height:28px;border-radius: 7px;float:left;}
+        .search{display:block;height:28px;line-height: 28px;text-align: center; width:70px;border:1px solid #ccc;border-radius: 7px;margin:0px 10px;background:#5C6BC0;}
+        .main21{width:100%;}
+        table{border-collapse:collapse;border:1px solid #ccc;margin-left: 30px;margin-top: 15px;table-layout:fixed;word-break:break-all;}
+        tr{border:1px solid #ccc;height:45px;}
+        th:first-child{width:50px;}
+        td{border:0px;text-align: center;}
+        table th{background:#fff;}
+        thead tr th{height:45px;background:#E8E8E8;font-weight:normal;}
+ 
+        .main-center{height:860px;margin-left:180px;width:auto;background-image: url(../../images/doc3.jpg);background-repeat:no-repeat;
+            background-attachment:0px 0px;
+                valign:top;
+            background-size:595px 842px;
+        }
+    /*  .chakan {height:600px;
+            background-image: url(../images/doc.png);
+            background-repeat:no-repeat;
+            background-attachment:250px 20px;
+            background-position:center;
+            valign:top;
+            align:left;
+            } */
+        .line2{margin-top:200px;float:right;width:100px;height:300px;}
+        #close1{margin-top: 5px;float:right;margin-right: 20px;}
+        .close{
+        width:80px;height:50px;line-height:50px; border:1px solid #ccc;border-radius:5px;display:block;margin-top:10px;
+        }
+        .line3{padding-top:119px;}
+        .line3 input{border:2px solid transparent;height:18px;background:transparent;}
+        .line31 input{border:2px solid transparent;height:18px;background:transparent;}
+        .pic .line31{height:860px;width:600px;background-image: url(../../images/doc3.jpg);background-repeat:no-repeat;
+            background-attachment:0px 0px;
+                valign:top;
+            background-size:595px 842px;}
+        .input1{margin-top: 15px;display:block;margin-left: 118px;}
+            .input2{    margin-top: 16px;
+        display: block;
+        width: 170px;
+        margin-left: 140px;
+        float: left;
+        margin-right: 91px;}
+        .input3{margin-top: 16px;display:block;margin-left: 135px;width:80px;}
+        .input4{display:block;margin-top: 17px;margin-left: 100px;}
+        .input44 {width: 111px;margin-left: 217px;}
+        .input5{width:311px;margin-left: 117px;}
+        .input6{width:211px;margin-left: 207px;}
+        .input7{width:211px;margin-left: 207px;}
+        .input8{width:211px;margin-left: 207px;}
+        .input9{width:100px;margin-left: 255px;float:left;margin-right: 20px;}
+        .input91{width:175px;margin-left: 155px;float:left;margin-right: 20px;}
+        .input10{width:30px;margin-right: 17px;float:left;margin-left: 0px;margin-top: 15px;}
+        .input100{width:30px;margin-right: 30px;float:left;margin-left: 0px;margin-top: 15px;}
+        .input11{float:left;margin-left: 2px;width:15px;margin-right: 17px;margin-top: 15px;}
+        .input12{margin-left: 15px;width:15px;margin-top: 15px;}
+        .input13{margin-left: 316px;margin-top: 13px;}
+        .input14{margin-left: 320px;}
+        .input15{margin-left: 116px;margin-top: 86px;}
+        .input16{margin-left: 276px;width:30px;margin-top: 81px;float:left;}
+        .input17{margin-left: 21px;width:25px;margin-top: 81px;float:left;margin-right: 16px;}
+        .input18{margin-left: 16px;width:25px;margin-top: 81px;}
+        .close{text-align: center;}
+        .checkbox1{    margin-top: 21px;margin-left: 59px;float: left;}

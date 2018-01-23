@@ -1,0 +1,169 @@
+/* 
+* @Author: Marte
+* @Date:   2017-04-10 14:58:44
+* @Last Modified by:   Marte
+* @Last Modified time: 2017-04-17 09:06:52
+*/
+ a{text-decoration: none;}
+    input{outline:none;}
+    .top{
+        width:100%;
+        height:72px;
+        border-bottom: 1px solid #ccc;
+        margin-left: 25px;}
+    .ck{
+        float:left;
+        margin-top: 30px;
+        height:30px; 
+        float:left;
+        margin-top: 30px;
+        height:30px;
+    }
+    .top11{ 
+        font-size:14px; 
+        display:block; 
+       
+        line-height:30px; 
+        padding:0 5px;
+        float:left;
+       }
+    .top12 {
+        font-size:14px; 
+        display:block; 
+       
+        line-height:30px; 
+        padding:0 5px;
+        float:left;
+        background:#FF7043;
+        color:#fff;
+    }
+    .refresh{
+        float:right;
+        margin-right: 25px;
+        margin-top: 22px;
+    }
+    .select{
+        padding:10px 25px;height:25px;
+    }
+    .select span{float:left;line-height: 28px;}
+    .text-in{height:22px;float:left;margin-right: 10px;}
+    .select-in{height:28px;border-radius: 7px;float:left;}
+    .search{display:block;height:28px;line-height: 28px;text-align: center; width:70px;border:1px solid #ccc;border-radius: 7px;margin:0px 10px;background:#5C6BC0;}
+    .main21{width:100%;}
+    table{border-collapse:collapse;border:1px solid #ccc;margin-left: 30px;margin-top: 15px;table-layout:fixed;word-break:break-all;}
+    tr{border:1px solid #ccc;height:45px;}
+    th:first-child{width:50px;}
+    td{border:0px;text-align: center;}
+    table th{background:#fff;}
+    thead tr th{height:45px;background:#E8E8E8;font-weight:normal;}
+    th:nth-child(3){
+        height:40px;
+        text-align: center;
+        width:70px;
+     }
+     th:nth-child(7){width:190px;}
+     th:nth-child(6){width:190px;}
+     td:nth-child(7){width:170px;overflow: hidden;white-space: nowrap;text-overflow: ellipsis;table-layout:fixed;word-break:break-all;}
+     td:nth-child(6){width:170px;overflow: hidden;white-space: nowrap;text-overflow: ellipsis;}
+   
+    .main-center{height:860px;margin-left:240px;width:auto;background-image: url(../../images/doc8.jpg);background-repeat:no-repeat; 
+         background-attachment:0px 0px;
+            valign:top;
+        background-size:595px 842px;
+    }
+   /*  .chakan {height:600px;
+           background-image: url(../images/doc.png);
+           background-repeat:no-repeat;
+           background-attachment:250px 20px;
+           background-position:center;
+           valign:top;
+           align:left;
+         } */
+     .line52{height:860px;width:auto;background-image: url(../../images/doc8.jpg);background-repeat:no-repeat; 
+         background-attachment:0px 0px;
+            valign:top;
+        background-size:595px 842px;}
+    .line2{margin-top:200px;float:right;width:100px;height:300px;}
+    #close1{margin-top: 5px;float:right;margin-right: 20px;}
+    .close{
+      width:80px;height:50px;line-height:50px; border:1px solid #ccc;border-radius:5px;display:block;margin-top:10px;
+    }
+    .line3{padding-top:68px;}
+    .line3 input{border:2px solid transparent;background:transparent;}
+    .input1{    margin-top: 74px;
+    display: block;
+    margin-left: 178px;
+    width: 100px;
+    width: 107px;
+    float: left;
+    margin-right: 27px;}
+    .input2{    margin-top: 74px;
+    display: block;
+    /* margin-left: 135px; */
+    width: 30px;
+    float: left;
+    margin-right: 21px;;}
+    .input3{    width: 25px;
+    margin-top: 74px;
+    display: block;
+    /* margin-left: 135px; */
+    float: left;
+    margin-right: 25px;}
+    .input4{margin-top: 74px;
+    display: block;
+    width: 25px;}
+    .input5{margin-left: 182px;
+    display: block;
+    margin-top: 3px;}
+    .input6{    margin-left: 96px;
+    display: block;
+    margin-top: 56px;
+    width: 70px;
+    float: left;
+    margin-right: 10px;}
+    .input7{    margin-top: 55px;
+    display: block;
+    width: 24px;
+    float: left;
+    margin-right: 8px;}
+    .input8{    float: left;
+    margin-top: 55px;
+    display: block;
+    width: 23px;
+    margin-right: 7px;}
+    .input9{    float: left;
+    margin-top: 55px;
+    display: block;
+    width: 118px;
+    margin-right: 7px;}
+    .input10{    
+    margin-top: 55px;
+    display: block;
+    width: 118px;
+   }
+   .input61{margin-top: 5px;}
+   .input62{margin-left: -84px;}
+.input11{    line-height: 26px;
+    margin-left: -26px;
+    background: transparent;
+    border: none; 
+    margin-top: 2px;}
+    .input12{    margin-left: 120px;
+    height: 44px;
+    margin-top: 100px;
+    display: block;}
+    .input13{    float: left;
+    width: 100px;
+    display: block;
+    margin-left: 170px;
+    margin-right: 60px;margin-top: 2px;}
+    .input14{float: left;
+    display: block;
+    width: 30px;
+    margin-right: 16px;}
+    .input15{float: left;
+    display: block;
+    width: 30px;
+    margin-right: 16px;}
+    .input16{display:block;width:30px;}
+    .close{text-align: center;}

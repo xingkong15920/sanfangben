@@ -1,0 +1,162 @@
+/* 
+* @Author: Marte
+* @Date:   2017-04-10 14:58:44
+* @Last Modified by:   Marte
+* @Last Modified time: 2017-04-14 09:33:41
+*/
+ a{text-decoration: none;}
+     form, fieldset, legend, button, input, textarea, /* form elements 表单元素 */
+      th, td /* table elements 表格元素 */ {
+          margin: 0;
+          padding: 0;
+      }
+      input{outline:none;}
+    .top{
+        width:100%;
+        height:72px;
+        border-bottom: 1px solid #ccc;
+        margin-left: 25px;}
+    .ck{
+        float:left;
+        margin-top: 30px;
+        height:30px; 
+        float:left;
+        margin-top: 30px;
+        height:30px;
+    }
+    .top11{ 
+        font-size:14px; 
+        display:block; 
+       
+        line-height:30px; 
+        padding:0 5px;
+        float:left;
+       }
+    .top12 {
+        font-size:14px; 
+        display:block; 
+       
+        line-height:30px; 
+        padding:0 5px;
+        float:left;
+        background:#FF7043;
+        color:#fff;
+    }
+    .refresh{
+        float:right;
+        margin-right: 25px;
+        margin-top: 22px;
+    }
+    .select{
+        padding:10px 25px;height:25px;
+    }
+    .select span{float:left;line-height: 28px;}
+    .text-in{height:22px;float:left;margin-right: 10px;}
+    .select-in{height:28px;border-radius: 7px;float:left;}
+    .search{display:block;height:28px;line-height: 28px;text-align: center; width:70px;border:1px solid #ccc;border-radius: 7px;margin:0px 10px;background:#5C6BC0;}
+    .main21{width:100%;}
+    table{border-collapse:collapse;border:1px solid #ccc;margin-left: 30px;margin-top: 15px;table-layout:fixed;word-break:break-all;}
+    tr{border:1px solid #ccc;height:45px;}
+    th:first-child{width:50px;}
+    td{border:0px;text-align: center;}
+    table th{background:#fff;}
+    thead tr th{height:45px;background:#E8E8E8;font-weight:normal;}
+   /*  th:nth-child(3){
+       height:40px;
+       text-align: center;
+       width:70px;
+    }
+    th:nth-child(7){width:190px;}
+    th:nth-child(6){width:190px;}
+    td:nth-child(7){width:170px;overflow: hidden;white-space: nowrap;text-overflow: ellipsis;table-layout:fixed;word-break:break-all;}
+    td:nth-child(6){width:170px;overflow: hidden;white-space: nowrap;text-overflow: ellipsis;} */
+   
+    .main-center{height:700px;margin-left:240px;width:auto;background-image: url(../../images/doc6.jpg);background-repeat:no-repeat; 
+         background-attachment:0px 0px;
+            valign:top;
+        background-size:510px 700px;
+    }
+   /*  .chakan {height:600px;
+           background-image: url(../images/doc.png);
+           background-repeat:no-repeat;
+           background-attachment:250px 20px;
+           background-position:center;
+           valign:top;
+           align:left;
+         } */
+    .pic .line3{height:700px;width:600px;background-image: url(../../images/doc6.jpg);background-repeat:no-repeat; 
+         background-attachment:0px 0px;
+            valign:top;
+        background-size:510px 700px;}
+    .line2{margin-top:200px;float:right;width:100px;height:300px;}
+    #close1{margin-top: 5px;float:right;margin-right: 20px;}
+    .close{
+      width:80px;height:50px;line-height:50px; border:1px solid #ccc;border-radius:5px;display:block;margin-top:10px;
+    }
+    .line3{padding-top:68px;}
+    .line3 input{border:2px solid transparent;}
+    .textarea{border:2px solid transparent;}
+    .input1{margin-top: 19px;display:block;margin-left: 137px;}
+    .input2{margin-top: 0px;display:block;margin-left: 137px;float:left;margin-right: 110px;}
+    .input3{margin-top: -12px;display:block;margin-left: 35px;width:60px;height:27px;}
+    .input4{margin-left: 40px;display:block;margin-top: 29px;}
+    .input41{margin-top: 38px;margin-bottom: 58px;}
+    .input5{display:block;height: 40px;
+    margin-left: 105px;
+    margin-top: 25px;}
+    .input6{display:block;float:left;margin-right: 30px;width:40px;margin-left:272px ;}
+    .input7{display:block;float:left;margin-right: 30px;width:20px;}
+    .input8{display:block;width:20px;}
+
+   /*  01-04.html样式表  input框 */
+   .line4 input{
+    border:0px;
+    /* background:#ccc; */
+    display:block;
+  }
+  .line4{padding-top: 357px;}
+  .main-center4{
+    height:860px;
+    margin-left:240px;
+    width:auto;
+    background-image: url(../../images/doc44.jpg);
+    background-repeat:no-repeat; 
+    background-attachment:0px 0px;
+    valign:top;
+    background-size:596px 842px;
+    }
+     .main-center44{
+    height:860px;
+    
+    width:600px;
+    background-image: url(../../images/doc44.jpg);
+    background-repeat:no-repeat; 
+    background-attachment:0px 0px;
+    valign:top;
+    background-size:596px 842px;
+    }
+    .in2{
+      float:left;
+      margin-top: 12px;
+      margin-left: 131px;
+    width: 140px;
+        margin-right: 100px;
+    }
+    .in1{
+          margin-right: 100px;
+      float:left;
+    margin-top: 16px;
+    margin-left: 131px;
+    width: 140px;
+    }
+    .in3{
+    width: 140px;
+    margin-left: 100px;
+    margin-top: 16px;
+    }
+    .in4{
+        width: 140px;
+    margin-left: 100px;
+    margin-top: 12px;
+    }
+    .close{text-align: center;}

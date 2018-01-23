@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+    </head>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/vue/1.0.16/vue.min.js"></script>
+    <script src="http://cdn.jsdelivr.net/vue/1.0.7/vue.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css"> </head>
+
+    <style>
+    table{background:#ccc;}
+        tr{border-bottom: 1px solid #ccc;background:#fff;height:40px;}
+        td{width:150px;}
+    </style>
+    <body>
+    <div class="container"> 
+        <div class="col-md-6 col-md-offset-3">
+            <h1>Vue demo</h1>
+
+            <div id="app">
+                <table border="0" cellspacing="1" cellpadding="0">
+                    <tr v-for="book in books">
+                        <td>{{book.id}}</td>
+                        <td>{{book.author}}</td>
+                        <td>{{book.name}}</td>
+                        <td>{{book.price}}</td>
+                    </tr>
+                </table>
+                <div id="add-book">
+                    <legend>添加书籍</legend>
+                    <div class="form-group">
+                        <label for="">书名</label>
+                        <input type="text" class="form-control" v-model="book.name">
+                    </div>
+                    <div class="form-group">
+                        <label for="">作者</label>
+                        <input type="text" class="form-control" v-model="book.author">
+                    </div>
+                    <div class="form-group">
+                        <label for="">价格</label>
+                        <input type="text" class="form-control" v-model="book.price">
+                    </div>
+                    <button class="btn btn-primary btn-block" v-on:click="addBook()">添加</button>
+                </div>
+            </div>
+       
+    </div>
+    </div>
+    </body>
+    <script>
+        new Vue({ 
+            el:'#app',
+            data:{
+                book:{
+                    id:0 ,
+                    author:'',
+                    name:'',
+                    price:''
+                },
+                books:[{
+                        id:1,
+                        author:'曹雪芹',
+                        name:'红楼梦',
+                        price:30.0
+                    },{
+                        id:2,
+                        author:'施耐庵',
+                        name:'水浒传',
+                        price:32.0 
+                    },{
+                        id:3,
+                        author:'罗贯中',
+                        name:'三国演义',
+                        price:34.0
+                    },{
+                        id:4,
+                        author:'吴承恩',
+                        name:'西游记',
+                        price:36.0
+                    }
+                ]
+            }
+         });
+    new Vue({ 
+         el:'#add-book',    
+         methods:{
+            addBook:function(){
+                this.book.id=this.books.length + 1;
+                this.books.push(this.book);
+                this.book='';
+            }
+        }
+    });
+    </script>
+</html>

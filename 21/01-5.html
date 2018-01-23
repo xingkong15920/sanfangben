@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+     
+        <link rel="stylesheet" type="text/css" href="../css/sfb-word.css" />
+        
+        <link rel="stylesheet" href="css/01-07.css">
+    </head>
+    <body>
+        <div class="top">
+            <div class="ck"><span class="top11"><a href="01.html">审核列表</a></span></div>
+             <div class="ck"><span class="top11"><img src="../images/jiantou3.png" height="22" width="18" alt=""></span></div>
+            
+            <div class="ck"><span class="top12">调查报告书审核</span></div>
+            <div class="refresh"><img src="../images/shuaxin.png" height="41" width="42"/></div>
+        </div>
+        <div class="select">
+            <span>筛选：</span>
+            <input class="text-in" type="text" placehoder="单行输入...">
+            <select class="select-in" >
+                <option value="">自动识别</option>
+                <option value="">车牌号</option>
+                <option value="">车架号</option>
+                <option value="">案件号</option>
+                <option value="">姓名</option>
+            </select>
+            <span class="search">查询</span>
+        </div>
+        <div class="main21">
+             <table width="95%">
+              <thead>
+                <tr>
+                  <th>案件号</th>
+                  <th>报警人</th>
+                  <th class="name">接警人</th>
+                  <th>报警时间</th>
+                  <th>处理大队</th>
+                  <th>上传时间</th>
+                  <th>调查报告书审核</th>
+                  <th>剩余时间</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>1234</td>
+                  <td>李月</td>
+                  <td>贾子峰</td>
+                  <td>2017-02-01</td>
+                  <td>石家庄大队一大队</td>
+                  <td>2017-02-01</td>
+                  <td id="tianjia">1/1 <img src="../images/down.png" height="13" width="16" alt="" /></td>
+                  <td>5天</td>             
+                </tr>
+                <tr class="tianjia">  
+                  <td  class="chakan" colspan="8" valign="top">
+                    <div class="main-center">
+                      <img class="arrow-left" src="../images/arrow-right.png" height="39" width="24" alt="" />
+                      <img class="arrow-right" src="../images/arrow-left.png" height="39" width="24" alt="" /> 
+                      <div class="line1">
+                          <img id="close1" src="../images/cha.png" >
+                      </div>
+                      <div class="line2">  
+                          <span class="close" id="close2" ><img src="../images/save.png"/> 编辑</span>
+                          <span class="close" id="close3" ><img src="../images/save.png"/> 保存</span>
+                          <span class="close" id="close3" >取消</span>
+                      </div>     
+          
+                      <div class="tab1 sfb-main-51">
+                         <input class="jianyan1" type="text" />
+                         <textarea class="jianyan2" name="" id="" cols="30" rows="4"></textarea>
+                         <textarea class="jianyan3" name="" id="" cols="30" rows="4"></textarea>
+                         <textarea class="jianyan4" name="" id="" cols="30" rows="4"></textarea>
+                         <textarea class="jianyan5" name="" id="" cols="30" rows="4"></textarea>
+                         <textarea class="jianyan6" name="" id="" cols="30" rows="6"></textarea>
+                      </div>
+                      <div class="tab1 sfb-main-52">
+                          <textarea class="jianyan7" name="" id="" cols="30" rows="5"></textarea>
+                          <textarea class="jianyan8" name="" id="" cols="30" rows="5"></textarea>
+                          <textarea class="jianyan9" name="" id="" cols="30" rows="5"></textarea>
+                          <textarea class="jianyan10" name="" id="" cols="30" rows="3"></textarea>
+                          <textarea class="jianyan11" name="" id="" cols="30" rows="7"></textarea>
+                      </div>
+                      <div class="tab1 sfb-main-53">
+                          <textarea class="jianyan12" name="" id="" cols="30" rows="30"></textarea>
+                      </div>
+
+                      </div>
+                    </td>   
+                </tr>  
+                <tr>
+                  <td>1234</td>
+                  <td>李月</td>
+                  <td>贾子峰</td>
+                  <td>2017-02-01</td>
+                  <td>石家庄大队一大队</td>
+                  <td>2017-02-01</td>
+                  <td id="tianjia">1/1 <img src="../images/down.png" height="13" width="16" alt="" /></td>
+                  <td>5天</td>             
+                </tr>
+                 <tr>
+                  <td>1234</td>
+                  <td>李月</td>
+                  <td>贾子峰</td>
+                  <td>2017-02-01</td>
+                  <td>石家庄大队一大队</td>
+                  <td>2017-02-01</td>
+                  <td id="tianjia">1/1 <img src="../images/down.png" height="13" width="16" alt="" /></td>
+                  <td>5天</td>             
+                </tr>
+              </tbody>
+            </table>
+        </div>
+    </body>
+
+    <script type="text/javascript" src="../js/jquery-1.10.2.js"></script>
+    <script>
+    $(document).ready(function($) {
+         $(".tianjia").hide();
+        $("#tianjia").click(function(event) {
+            $(".tianjia").show();
+        });
+        $("#close1,#close2,#close3").click(function(event) {
+            $(".tianjia").hide();
+        });
+
+    });
+
+    $(".tab1").eq(0).show().siblings(".tab1").hide();
+    var i=$('.main-center').children(".tab1").length-1;
+    /*alert(i)*/
+    var j=0;
+    
+
+        $(".arrow-left").click(function(e) {        
+           $(".tab1").eq(j-1).show().siblings(".tab1").hide();
+                     j--;
+                    /* j = j<=0?0:j--;*/
+         });  
+        $(".arrow-right").click(function(e) {        
+           $(".tab1").eq(j+1).show().siblings(".tab1").hide();
+                     j++;
+                    /* j = j>=i?i:j++;*/
+          }); 
+       
+    </script>
+</html>

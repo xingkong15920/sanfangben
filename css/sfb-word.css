@@ -1,0 +1,3110 @@
+/* 
+* @Author: anchen
+* @Date:   2017-03-20 16:44:03
+* @Last Modified by:   Marte
+* @Last Modified time: 2017-04-17 08:58:21
+*
+* /* CSS Document */
+*:focus { outline: none; } 
+input {outline:none;}
+*{ font-size:14px; font-family:"微软雅黑";}
+textarea{
+    resize : none;
+    padding:0;
+    margin:0;
+    overflow:auto;
+    background:transparent;
+    background-attachment:fixed;
+    background-repeat:no-repeat;
+    border-style:solid;  
+    border-color:transparent;
+}
+.fl{float:left;}
+.fr{float:right;}
+ul{padding:0;}
+dl{margin:0;}
+img{border:none;}
+dd{padding:0; margin:0;}
+body{margin:0;width:100%;}
+a{text-decoration:none !important; }
+li{list-style:none;}
+.clearfix:after, .clearfix:before{  display: table;
+    content: " ";
+}
+
+table { 
+ border-collapse:collapse; 
+ border-spacing:0; 
+} 
+th,td { 
+ padding: 0; 
+}
+input{
+    padding:0;
+    margin:0;
+    display:inline-block;
+    border:2px solid transparent;
+    background:transparent;
+   /* border:1px solid #4D90BB;
+    color: #666;*/
+    /*height:19px;*/
+    
+
+    font-family:Arial,sans-serif,Tahoma; 
+   }
+
+/*公共的*/
+/*==============交通事故审批 1-1==============*/
+.sfb-main-01{
+    width:596px;
+    height: 842px;
+    background: url(../img/jts-1.jpg) no-repeat;
+}
+.jts-01{
+    width: 295px;
+    margin: 74px 0 0 121px;
+}
+.jts-02{
+    width: 80px;
+    margin: 67px 0 0 72px;
+}
+.jts-03{
+    width: 46px;
+    margin: 10px 0 0 121px;
+}
+.jts-04{
+    width: 20px;
+    margin: 10px 0 0 14px;
+}
+.jts-05{
+    width: 20px;
+    margin: 10px 0 0 10px;
+}
+.jts-06{
+    width: 20px;
+    margin: 10px 0 0 12px;
+}
+.jts-07{
+    width: 20px;
+    margin: 10px 0 0 12px;
+}
+.jts-08{
+    width: 38px;
+    margin: 10px 0 0 29px;
+}
+.jts-09{
+    width: 20px;
+    margin: 10px 0 0 11px;
+}
+.jts-10 {
+    width: 455px;
+    margin: 17px 0px 0 121px;
+}
+.jts-11 {
+    width: 146px;
+    margin: 54px 0 0 90px;
+}
+.jts-12 {
+    width: 186px;
+    margin: 54px 0 0 105px;
+}
+.jts-13 {
+    /*width: 186px;*/
+    margin: 24px 0 0 229px;
+}
+.jts-14 {
+    /*width: 186px;*/
+    margin: 20px 0 0 47px;
+}
+.jts-15 {
+    width: 201px;
+    margin: 0px 0 0 31px;   
+}
+.jts-16 {
+    margin: 22px 0 0 133px;    
+}
+.jts-17 {
+    width:173px;   
+    margin: 0px 0 0 154px;    
+}
+.jts-18 {
+    width: 250px;
+    margin: 0px 0 0 77px;    
+}
+.jts-19{
+margin: 23px 0 0 101px;
+}
+.jts-20{
+    margin-left: 46px;
+}
+.jts-21{
+    margin:23px 0 0 101px;
+}
+.jts-22{
+    margin-left: 48px;
+}
+.jts-23{
+    margin-left: 47px;
+}
+.jts-24{
+    margin:23px 0 0 101px;
+}
+.jts-25{
+    margin-left: 190px;
+}
+.txt-01{
+    height:63px;
+    width:395px;
+    margin-left: 175px;
+    margin-top: 15px;
+}
+.jts-26{
+    height:15px;
+    width:104px;
+    margin-top: 25px;
+    margin-left: 164px;
+}
+.jts-27{
+    width:200px;
+    margin-left: 97px;
+}
+.jts-28{
+    width:40px;
+    height:13px;
+    margin-top:42px;
+    margin-left: 85px;
+}
+.jts-29{
+    width:40px;
+    height:13px;
+    margin-top: 3px;
+    margin-left: 85px;
+}
+.jts-30{
+    width:225px;
+    margin-top: 24px;
+    margin-left: 158px;
+}
+.jts-31{
+    width:98px;
+    margin-left: 86px;
+}
+.jts-32{
+    width:380px;
+    margin-top: 8px;
+    margin-left: 195px;
+}
+/*======
+=============道路交通事故处理通知书=======
+====*/
+.sfb-main-02{
+    position: relative;
+    width:596px;
+    height: 842px;
+    background: url(../img/jts-2.jpg) no-repeat;
+}
+.a-01{
+    width:202px;
+    margin:181px 0 0 102px;
+}
+.a-02{
+    margin-top: 20px;
+    margin-left: 61px;
+}
+.a-03,
+.a-04,
+.a-05,
+.a-06,
+.a-07{
+    position:absolute;
+}
+.a-03{
+
+    width: 65px;
+   /* margin-top: 66px;
+    margin-left: 340px;*/
+    bottom: 158px;
+    right: 184px;
+}
+.a-04{
+    width: 21px;
+    bottom: 158px;
+    right: 140px;
+}
+.a-05{
+    width: 24px;
+    bottom: 158px;
+    right: 95px;
+}
+.a-06{
+    width: 121px;
+    bottom: 110px;
+    left: 173px;
+}
+.a-07{
+    width: 153px;
+    height: 17px;
+    bottom: 83px;
+    left: 217px;
+}
+/*======
+=============道路交通事故尸体处理通知书=======
+====*/
+.sfb-main-03{
+    width:596px;
+    height: 842px;
+    background: url(../img/jts-3.jpg) no-repeat;
+}
+.b-01{
+    width:52px;
+    margin:132px 0 0 275px;
+}
+.b-02{
+    margin: 62px 40px 0 109px;
+    width: 202px;
+}
+.b-03{
+    width:153px;
+    margin:53px 0 0 80px;
+}
+.b-04{
+    width: 48px;
+    margin: 19px 0 0 171px;
+}
+.b-05{
+    margin: 0 0 0 12px;
+    width: 44px;
+}
+.b-06{
+    margin: 0 0 0 10px;
+    width: 44px;
+}
+.b-07{
+    padding:0;
+    margin:0;
+    width:441px;
+    height:212px;
+    margin-top: 58px;
+    margin-left: 76px;
+}
+.b-08{
+    width:40px;
+    margin:391px 0 0 367px;
+}
+.b-09{
+    width: 22px;
+    margin: 0px 0 0 14px;
+}
+.b-10{
+    width: 22px;
+    margin: 0px 0 0 14px;
+}
+/*===
+===道路交通证明-事故审批
+jts-4===
+======*/
+.sfb-main-04{
+    position:relative;
+    width:596px;
+    height: 842px;
+    background: url(../img/jts-4.jpg) no-repeat;
+}
+.c-01{
+    width: 275px;
+    margin: 82px 0 0 168px;
+}
+.c-02{
+    width: 50px;
+    margin: 40px 60px 0 281px;
+}
+.c-03{
+    width:204px;
+    margin:50px 0 0 123px;
+}
+.c-04{
+    width: 216px;
+    margin: 20px 0 0 207px;
+}
+.c-05{
+    width: 116px;
+    margin: 15px 0 0 178px;
+}
+.c-06{
+    width: 160px;
+    margin: 15px 0 0 18px;
+}
+.c-07{
+    width:245px;
+    margin:83px 0 0 268px;
+}
+.c-08{
+    width:122px;
+    margin:210px 23px 0 161px;
+}
+.c-09{
+    width: 50px;
+    position: absolute;
+    bottom: 135px;
+    right: 177px;
+   
+}
+.c-10{
+    width:22px;
+    position: absolute;
+    bottom: 135px;
+    right: 133px;
+}
+.c-11{
+    width:22px;
+    position: absolute;
+    bottom: 135px;
+    right: 91px;
+}
+.c-t-01{
+    width: 345px;
+    height: 74px;
+    margin: 10px 0 0 170px;
+}
+.c-12{
+    width: 153px;
+    margin: 7px 0 0 205px;
+}
+/*===
+===道路交通证明-事故审批
+jts-5===
+======*/
+.sfb-main-05{
+    width:596px;
+    height: 842px;
+    background: url(../img/jts-5.jpg) no-repeat;
+}
+.d-01{
+    width: 252px;
+    margin: 32px 0 0 191px;
+}
+.d-02{
+    width: 52px;
+    margin: 43px 0 0 161px;
+}
+.d-03{
+    width: 15px;
+    margin: 43px 0 0 82px;
+}
+.d-04{
+    width: 59px;
+    margin: 43px 0 0 17px;
+}
+.t-d-01{
+    width:385px;
+    height: 43px;
+    margin: 17px 0 0 168px;
+}
+.t-d-02{
+    width:385px;
+    height: 40px;
+    margin: 6px 0 0 168px;
+}
+.t-d-03{
+    width:500px;
+    height: 150px;
+    margin: 32px 0 0 49px;
+}
+.t-d-04{
+     width:500px;
+    height: 200px;
+    margin: 45px 0 0 49px;
+}
+.d-05{
+    width: 50px;
+    margin: 88px 0 0 307px;
+}
+.d-06{
+    width: 37px;
+    margin: 88px 0 0 18px;
+}
+.d-07{
+    width: 37px;
+    margin: 88px 0 0 17px;
+}
+/*======
+====道路交通事故认定不予受理通知书==
+===========*/
+.sfb-sp-01{
+    width:596px;
+    height: 842px;
+    background: url(../img/sp-buyushouli.jpg) no-repeat;
+}
+.sp-1-01{
+    width:252px;
+    margin: 77px 0 0 182px;
+}
+.sp-1-02{
+    width:22px;
+    margin: 48px 0 0 182px;
+}
+.sp-1-03{
+    width: 14px;
+    margin: 0px 0 0px 82px;
+}
+.sp-1-04{
+    width: 105px;
+    margin: 0px 0 0px 18px;
+}
+.sp-1-05{
+    width:210px;
+    margin: 69px 0 0px 63px;
+}
+.sp-1-08{
+    line-height: 37px;
+    margin-top: 82px;
+    margin-left: 60px;   
+}
+.sp-1-06{
+    width:50px;
+    margin:245px 0 0 347px;
+}
+.sp-1-07{
+    width:22px;
+    margin: 0px 0 0 20px;
+}
+.sp-1-09{
+     width:25px;
+     margin: 0px 0 0 20px;
+}
+/*======= 
+==-----  道路交通事故认定复合受理通知书=sfb-sp-02
+========*/
+.sfb-sp-02{
+    width:596px;
+    height: 842px;
+    background: url(../img/sp-fuheshipi.jpg) no-repeat;
+}
+.sp-2-01{
+    width: 214px;
+    margin: 222px 0 0 62px;
+}
+.sp-2-02{
+    width:336px;
+    margin:54px 0 0 186px;
+}
+.sp-2-03{
+    width:441px;
+    height:60px;
+    line-height: 28px;
+    margin: 15px 0 0 85px;
+}
+.sp-2-04{
+    width:50px;
+    margin:350px 0 0 336px;
+}
+.sp-2-05{
+    width:27px;
+    margin:0 0 0 22px;
+}
+.sp-2-06{
+    width:28px;
+    margin:0 0 0 16px;
+}
+/*-=======
+==============复核结论====sfb-sp-03=
+=========*/
+.sfb-sp-03{
+    width:596px;
+    height: 842px;
+    background: url(../img/sp-fuhejielun.jpg) no-repeat;
+}
+.sp-3-01{    
+    width:460px;
+    height:97px;
+    margin:174px 0 0 66px;
+}
+.sp-3-02{   
+    width:460px;
+    height:162px; 
+    margin:46px 0 0 66px;
+}
+.sp-3-03{ 
+    width:460px;
+    height:129px;   
+    margin:59px 0 0 66px;
+}
+.sp-3-04{    
+    width:50px;
+    margin:20px 0 0 339px;
+}
+.sp-3-05{    
+    width: 24px;
+    margin: 15px 0 0 20px;
+}
+.sp-3-06{    
+    width: 24px;
+    margin: 15px 0 0 14px;
+}
+/*======
+========车辆技术检验====
+========*/
+.sfb-sp-04{
+    position: relative;
+    width:596px;
+    height: 842px;
+    background: url(../img/sp-cheliangjianyan.jpg) no-repeat;
+}
+.sp-4-01{    
+    width: 34px;
+    margin: 114px 49px 0 285px;
+}
+.sp-4-txt01{
+    width: 363px;
+    height: 40px;
+    margin: 5px 0 0 162px;
+}
+.sp-4-02{    
+    width:188px;
+    margin:6px 0 0 231px;
+}
+.sp-4-03{    
+    margin: 0 0 0 36px;
+    width: 60px;
+}
+.sp-4-04{    
+    width: 140px;
+    margin: 6px 0 0 261px;
+}
+.sp-4-05{    
+    width: 60px;
+    margin: 6px 0 0 54px;
+  }
+.sp-4-06{    
+    width: 322px;
+    margin: 6px 0 0 200px;
+}
+.sp-4-07{    
+    width: 322px;
+    height:70px;
+    margin: 6px 0 0 200px;
+}
+.sp-4-08{    
+    width: 72px;
+    margin: 3px 0 0 170px;
+}
+.sp-4-09{    
+    width: 134px;
+    margin: 3px 0 0 31px;
+}
+.sp-4-10{    
+    width: 67px;
+    margin: 3px 0 0 31px;
+}
+.sp-4-11{
+    width: 433px;
+    height:45px;
+    margin: 54px 0 0 90px;
+}
+.sp-4-12{
+    width: 433px;
+    height:45px;
+    margin: 30px 0 0 90px;  
+}
+.sp-4-13{
+    position:absolute;
+    top: 567px;
+    left:90px;
+    width: 433px;
+    height:34px;
+    /*margin: 30px 0 0 90px;  */
+}
+.sp-4-14{
+    position:absolute;
+    top: 620px;
+    left:90px;
+    width: 433px;
+    height:40px;
+}
+.sp-4-15{
+    position: absolute;
+    bottom: 147px;
+    right: 92px;
+    width: 90px;
+}
+.sp-4-16{
+    position: absolute;
+    bottom: 68px;
+    right: 187px;
+    width: 50px;
+}
+.sp-4-17{
+    position: absolute;
+    bottom: 68px;
+    right: 141px;
+    width: 24px;
+}
+.sp-4-18{
+    position: absolute;
+    bottom: 68px;
+    right: 97px;
+    width: 24px;
+}
+/*======
+========车辆技术检验====
+sfb-sp-04
+========*/
+.sfb-sp-05{
+    position: relative;
+    width:596px;
+    height: 842px;
+    background: url(../img/sp-shijian-01.jpg) no-repeat;
+}
+.e-01{
+    position: absolute;
+    top: 132px;
+    left: 160px;
+    width: 140px;
+}
+.e-02{
+    position: absolute;
+    top: 132px;
+    right: 89px;
+    width: 126px;
+}
+.e-03{
+    position: absolute;
+    top: 158px;
+    left: 160px;
+    width: 140px;
+}
+.e-04{
+    position: absolute;
+    top: 158px;
+    right: 109px;
+    width: 106px;
+}
+.e-05{
+    position: absolute;
+    top: 183px;
+    left: 160px;
+    width: 140px;
+}
+.e-06{
+    position: absolute;
+    top: 183px;
+    right: 89px;
+    width: 126px;
+}
+.e-07{
+    position: absolute;
+    top: 209px;
+    left: 160px;
+    width: 140px;
+}
+.e-08{
+    position: absolute;
+    top: 209px;
+    right: 89px;
+    width: 126px;
+}
+.duoxuan{
+    position: absolute;
+    top:236px;
+    left:160px;
+    
+}
+.duoxuan .d-x-01{
+    margin:0 0 0 10px;
+}
+.duoxuan .d-x-02{
+    margin:0 0 0 72px;
+}
+.duoxuan .d-x-03{
+    margin:0 0 0 87px;
+}
+.duoxuan .d-x-04{
+    margin:0 0 0 26px;
+}
+.duoxuan .d-x-05{
+    margin:0 0 0 27px;
+}
+.e-09{
+    position: absolute;
+    top: 260px;
+    left: 170px;
+    width: 336px;
+    height:72px;
+    line-height: 24px;
+}
+.e-10{
+    position: absolute;
+    top: 339px;
+    left: 209px;
+    width: 294px;
+}
+.e-11{
+    position: absolute;
+    top: 370px;
+    left: 171px;
+    width: 333px;
+    height:72px;
+    line-height: 24px;
+}
+.e-12{
+    position: absolute;
+    top: 464px;
+    left: 149px;
+    width: 355px;
+    height: 121px;
+    line-height: 24px;
+}
+.e-13{
+    position: absolute;
+    bottom: 97px;
+    left: 149px;
+    width: 355px;
+    height: 143px;
+    line-height: 24px;
+}
+/*======
+========车辆技术检验====
+sfb-sp-06
+========*/
+.sfb-sp-06{
+    position: relative;
+    width:596px;
+    height: 842px;
+    background: url(../img/sp-shijian-02.jpg) no-repeat;
+}
+.f-01,
+.f-02,
+.f-03,
+.f-04,
+.f-05,
+.f-06{
+    position: absolute;
+}
+.f-01{
+    top: 90px;
+    left: 158px;
+    width: 345px;
+    height:160px;
+}
+.f-02{
+    bottom: 165px;
+    right: 83px;
+    width: 333px;
+    height: 52px;
+}
+.f-03{
+    bottom: 98px;
+    left: 175px;
+    width: 150px;
+    height: 52px;
+}
+.f-04{
+    bottom: 85px;
+    right: 187px;
+    width: 50px;
+}
+.f-05{
+    bottom: 85px;
+    right: 146px;
+    width: 20px;
+}
+.f-06{
+    bottom: 85px;
+    right: 108px;
+    width: 20px;
+}
+/*======
+========信息采集====
+sfb-sp-08
+========*/
+.sfb-sp-08{
+    position: relative;
+    width:522px;
+    /*height: 842px;*/
+    padding:30px;
+    background: #fafafa;
+}
+.sfb-sp-08 input{
+    border:1px solid #ccc;
+    height:20px;
+}
+.sfb-sp-08 table{
+    padding:30px;
+}
+.sfb-sp-08 table tr{
+    padding:10px 0;
+}
+.sfb-sp-08 table td{
+    padding-left:10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.sfb-sp-08 table textarea{
+    width:100%;
+    background-color: #fff;
+}
+/*2017-04-12*/
+/*====
+====勘查笔录-2 ====
+--*/
+.ckbl-main-02{
+    position: relative;
+    width:596px;
+    height: 842px;
+    background: url(../img/kcbl-2.jpg) no-repeat;
+}
+.c-a-01,.c-a-02,
+.c-a-03,.c-a-04,
+.c-a-05,.c-a-06,
+.c-a-08,.c-a-09,
+.c-a-10,.c-a-11,
+.c-a-12,.c-a-13,
+.c-a-14,.c-a-15,
+.c-a-16,.c-a-17,
+.c-a-18,.c-a-19,
+.c-a-20,.c-a-21,
+.c-a-22,.c-a-23,
+.c-a-24,.c-a-25,
+.c-a-26,.c-a-27,
+.c-a-28,.c-a-29,
+.c-a-30{
+    position:absolute;
+}
+.c-a-01{
+    width: 31px;
+    top: 120px;
+    left: 183px;
+}
+.c-a-02{
+    width: 325px;
+    top: 162px;
+    left: 223px;
+}
+.c-a-03{
+    width: 43px;
+    top: 202px;
+    left: 158px;
+}
+.c-a-04{
+    width: 43px;
+    top: 202px;
+    left: 158px;
+}
+.c-a-05{
+    width: 43px;
+    top: 202px;
+    left: 320px;
+}
+.c-a-06{
+    width: 26px;
+    top: 202px;
+    right: 47px;
+}
+
+.c-a-08{
+    width: 86px;
+    top: 240px;
+    left: 158px;
+}
+.c-a-09{
+    width: 103px;
+    top: 240px;
+    right: 43px;
+}
+.c-a-10{
+    width: 322px;
+    top: 280px;
+    right: 43px;
+}
+.c-a-11{
+    width: 42px;
+    top: 321px;
+    left: 159px;
+}
+.c-a-12{
+    width: 42px;
+    top: 321px;
+    left: 320px;
+}
+.c-a-13{
+    width: 30px;
+    top: 321px;
+    right: 42px;
+}
+.c-a-14{
+    width: 121px;
+    top: 361px;
+    left: 158px;
+}
+.c-a-15{
+    width: 67px;
+    top: 361px;
+    right: 44px;
+}
+.c-a-16{
+    width: 320px;
+    top: 401px;
+    right: 44px;
+}
+.c-a-17{
+    width: 43px;
+    top: 441px;
+    left: 158px;
+}
+.c-a-18{
+    width: 43px;
+    top: 441px;
+    right: 230px;
+}
+.c-a-19{
+    width: 30px;
+    top: 441px;
+    right: 42px;
+}
+.c-a-20{
+    width: 102px;
+    top: 481px;
+    left: 159px;
+}
+.c-a-21{
+    width: 84px;
+    top: 481px;
+    right: 44px;
+}
+.c-a-22{
+    width: 31px;
+    bottom: 261px;
+    left: 196px;
+}
+.c-a-23{
+    width: 44px;
+    bottom: 261px;
+    left: 317px;
+}
+.c-a-24{
+    width: 31px;
+    bottom: 261px;
+    right: 97px;
+}
+.c-a-25{
+    width: 185px;
+    bottom: 221px;
+    left: 112px;
+}
+.c-a-26{
+    width: 30px;
+    bottom: 221px;
+    right: 134px;
+}
+.c-a-27{
+    width: 539px;
+    height:68px;
+    bottom: 107px;
+    right: 27px;
+}
+.c-a-28{
+    bottom: 74px;
+    left: 146px;
+}
+.c-a-29{
+    width:120px;
+    bottom: 74px;
+    right: 40px;
+}
+.c-a-30{
+    width: 387px;
+    bottom: 39px;
+    left: 175px;
+}
+/*====
+====勘查笔录-3 ====
+--*/
+.ckbl-main-03{
+    position: relative;
+    width:596px;
+    height: 842px;
+    background: url(../img/kcbl-3.jpg) no-repeat;
+}
+.d-a-01,.d-a-02,
+.d-a-03,.d-a-04,
+.d-a-05,.d-a-06,
+.d-a-08,.d-a-07{
+    position:absolute;
+}
+.d-a-01{
+    width: 31px;
+    top: 116px;
+    left: 239px;
+}
+.d-a-02{
+    width: 514px;
+    height: 114px;
+    top: 170px;
+    left: 39px;
+}
+.d-a-03{
+    width: 514px;
+    height: 114px;
+    top: 311px;
+    left: 39px;
+}
+.d-a-04{
+    width: 514px;
+    height: 114px;
+    top: 453px;
+    left: 39px;
+}
+.d-a-05{
+    width: 514px;
+    height: 114px;
+    top: 592px;
+    left: 39px;
+}
+.d-a-06{
+    bottom: 76px;
+    left: 149px;
+}
+.d-a-07{
+    width:120px;
+    bottom: 76px;
+    right: 43px;
+}
+.d-a-08{
+    width: 374px;
+    bottom: 40px;
+    right: 43px;
+}
+
+/*====
+====勘查笔录-3 ====
+--*/
+.ckbl-main-04{
+    position: relative;
+    width:596px;
+    height: 842px;
+    background: url(../img/kcbl-4.jpg) no-repeat;
+}
+.e-a-01,.e-a-02,
+.e-a-03,.e-a-04,
+.e-a-05,.e-a-06,
+.e-a-08,.e-a-07,
+.e-a-09,.e-a-10,
+.e-a-11,.e-a-12,
+.e-a-13,.e-a-14,
+.e-a-15,.e-a-16,
+.e-a-17,.e-a-18,
+.e-a-19,.e-a-20,
+.e-a-21,.e-a-22{
+    position:absolute;
+}
+.e-a-01{
+    top: 125px;
+    left: 157px;
+}
+.e-a-02{
+    top: 125px;
+    left: 225px;
+}
+.e-a-03{
+    top: 165px;
+    left: 171px;
+}
+.e-a-04{
+    top: 165px;
+    left: 255px;
+}
+.e-a-05{
+    top: 165px;
+    left: 397px;
+}
+.e-a-06{
+    top: 205px;
+    left: 63px;
+}
+.e-a-07{
+    top: 205px;
+    left: 153px;
+}
+.e-a-08{
+    top: 205px;
+    left: 256px;
+}
+.e-a-09{
+    top: 205px;
+    right: 187px;
+}
+.e-a-10{
+    width: 417px;
+    height: 40px;
+    top: 244px;
+    left: 138px;
+}
+.e-a-11{
+    width: 17px;
+    top: 306px;
+    right: 264px;
+}
+.e-a-12{
+    width: 524px;
+    height: 40px;
+    top: 372px;
+    right: 36px;
+}
+.e-a-13{
+    top: 432px;
+    left: 314px;
+}
+.e-a-14{
+    top: 432px;
+    left: 382px;
+}
+.e-a-15{
+    width:448px;
+    height: 92px;
+    top: 473px;
+    left: 109px;
+}
+.e-a-16{
+    bottom: 237px;
+    left: 300px;
+}
+.e-a-17{
+    bottom: 237px;
+    left: 348px;
+}
+.e-a-18{
+    bottom: 237px;
+    right: 100px;
+}
+.e-a-19{
+    bottom: 237px;
+    right: 52px;
+}
+.e-a-20{
+    width: 519px;
+    height: 110px;
+    bottom: 107px;
+    left: 40px;
+}
+/*====
+====勘察笔录-措施凭证 ====
+--*/
+.cspz-main-01{
+    position: relative;
+    width:596px;
+    height: 842px;
+    background: url(../img/cspz-01.jpg) no-repeat;
+    background-size: 596px 842px;
+}
+.cspz-a-01,.cspz-a-02,
+.cspz-a-03,.cspz-a-04,
+.cspz-a-05,.cspz-a-06,
+.cspz-a-08,.cspz-a-07,
+.cspz-a-09,.cspz-a-10,
+.cspz-a-11,.cspz-a-12,
+.cspz-a-13,.cspz-a-14,
+.cspz-a-15,.cspz-a-16,
+.cspz-a-17,.cspz-a-18,
+.cspz-a-19,.cspz-a-20,
+.cspz-a-21,.cspz-a-22,
+.cspz-a-23,.cspz-a-24,
+.cspz-a-25,.cspz-a-26,
+.cspz-a-27,.cspz-a-28,
+.cspz-a-29,.cspz-a-30,
+.cspz-a-31,.cspz-a-32,
+.cspz-a-33,.cspz-a-34,
+.cspz-a-35,.cspz-a-36,
+.cspz-a-37,.cspz-a-38,
+.cspz-a-39,.cspz-a-40,
+.cspz-a-41,.cspz-a-42,
+.cspz-a-43,.cspz-a-44
+{
+    position:absolute;
+}
+.cspz-a-01{
+    width: 29px;
+    top: 150px;
+    right: 203px;
+}
+.cspz-a-02{
+    width: 27px;
+    top: 150px;
+    right: 140px;
+}
+.cspz-a-03{
+    width:75px;
+    top: 242px;
+    left: 158px;
+}
+.cspz-a-04{
+    width: 173px;
+    top: 242px;
+    left: 318px;
+}
+.cspz-a-05{
+    width: 167px;
+    top: 267px;
+    left: 321px;
+}
+.cspz-a-06{
+    width: 221px;
+    top: 292px;
+    left: 270px;
+}
+.cspz-a-07{
+    width: 37px;
+    top: 317px;
+    left: 173px;
+}
+.cspz-a-08{
+    width: 37px;
+    top: 317px;
+    left: 290px;
+}
+.cspz-a-09{
+    width: 37px;
+    top: 317px;
+    right: 101px;
+}
+.cspz-a-10{
+    width: 117px;
+    top: 342px;
+    left: 173px;
+}
+.cspz-a-11{
+    width: 117px;
+    top: 342px;
+    right: 101px;
+}
+.cspz-a-12 {
+    width: 35px;
+    top: 371px;
+    left: 191px;
+}
+.cspz-a-13{
+    width: 21px;
+    top: 371px;
+    left: 246px;
+}
+.cspz-a-14{
+    width: 21px;
+    top: 371px;
+    left: 286px;
+}
+.cspz-a-15{
+    width: 21px;
+    top: 371px;
+    left: 326px;
+}
+.cspz-a-16{
+    width: 21px;
+    top: 371px;
+    left: 366px;
+}
+.cspz-a-17{
+    width: 141px;
+    top: 396px;
+    left: 96px;
+}
+.cspz-a-18 {
+    top: 429px;
+    left: 124px;
+}
+.cspz-a-19 {
+    top: 424px;
+    left: 292px;
+    width: 36px;
+}
+.cspz-a-20 {
+    top: 422px;
+    left: 364px;
+    width: 36px;
+}
+.cspz-a-21 {
+    top: 422px;
+    left: 436px;
+    width: 36px;
+}
+.cspz-a-22{
+    top: 453px;
+    left: 124px;
+}
+.cspz-a-23{
+    width: 20px;
+    top: 445px;
+    left: 355px;
+}
+.cspz-a-24{
+    width: 14px;
+    top: 445px;
+    left: 410px;
+}
+.cspz-a-25{
+    width: 13px;
+    top: 445px;
+    left: 459px;
+}
+.cspz-a-26{
+    width: 13px;
+    top: 479px;
+    left: 269px;
+}
+.cspz-a-27{
+    width: 13px;
+    top: 479px;
+    left: 377px;
+}
+.cspz-a-28{
+   top: 498px;
+    left: 218px;
+    width: 204px;
+}
+.cspz-a-29{
+   bottom: 274px;
+    left: 286px;
+    width: 117px;
+}
+.cspz-a-30{
+   bottom: 250px;
+    left: 225px;
+    width: 75px;
+}
+.cspz-a-31{
+    bottom: 199px;
+    left: 284px;
+    width: 76px;
+}
+.cspz-a-32{
+    bottom: 199px;
+    left: 371px;
+    width: 29px;
+}
+.cspz-a-33{
+    bottom: 199px;
+    right: 144px;
+    width: 29px;
+}
+.cspz-a-34{
+    bottom: 199px;
+    right: 109px;
+    width: 19px;
+}
+.cspz-a-35{
+    bottom: 173px;
+    right: 139px;
+    width: 109px;
+}
+.cspz-a-36{
+    bottom: 149px;
+    left: 190px;
+    width: 94px;
+}
+.cspz-a-37{
+    bottom: 149px;
+    left: 350px;
+    width: 50px;
+}
+.cspz-a-38{
+    bottom: 149px;
+    right: 148px;
+    width: 24px;
+}
+.cspz-a-39{
+    bottom: 149px;
+    right: 108px;
+    width: 24px;
+}
+.cspz-a-40{
+    bottom: 124px;
+    left: 143px;
+    width: 141px;
+}
+
+/*====
+====扣押物品清单 ====
+--*/
+.kywp-main-01{
+    position: relative;
+    width:596px;
+    height: 842px;
+    background: url(../img/kouyawupinqingdan.jpg) no-repeat;
+    background-size: 596px 842px;
+}
+.kywp-a-01,.kywp-a-02,
+.kywp-a-03,.kywp-a-04,
+.kywp-a-05,.kywp-a-06,
+.kywp-a-08,.kywp-a-07,
+.kywp-a-09,.kywp-a-10,
+.kywp-a-11,.kywp-a-12,
+.kywp-a-13,.kywp-a-14,
+.kywp-a-15,.kywp-a-16,
+.kywp-a-17,.kywp-a-18,
+.kywp-a-19,.kywp-a-20,
+.kywp-a-21,.kywp-a-22,
+.kywp-a-23,.kywp-a-24,
+.kywp-a-25,.kywp-a-26,
+.kywp-a-27,.kywp-a-28,
+.kywp-a-29,.kywp-a-30,
+.kywp-a-31,.kywp-a-32,
+.kywp-a-33,.kywp-a-34,
+.kywp-a-35,.kywp-a-36,
+.kywp-a-37,.kywp-a-38,
+.kywp-a-39,.kywp-a-40,
+.kywp-a-41,.kywp-a-42,
+.kywp-a-43,.kywp-a-44,
+.kywp-a-45,.kywp-a-46,
+.kywp-a-47,.kywp-a-48,
+.kywp-a-49,.kywp-a-50,
+.kywp-a-51,.kywp-a-52,
+.kywp-a-53,.kywp-a-54,
+.kywp-a-55,.kywp-a-56,
+.kywp-a-57,.kywp-a-58
+{
+    position:absolute;
+}
+.kywp-a-01{
+    width: 68px;
+    top: 152px;
+    left: 162px;
+}
+.kywp-a-02{
+    width: 36px;
+    top: 152px;
+    left: 281px;
+}
+.kywp-a-03{
+    width: 44px;
+    top: 152px;
+    left: 354px;
+}
+.kywp-a-04{
+    width: 133px;
+    top: 177px;
+    left: 81px;
+}
+.kywp-a-05{
+    width: 126px;
+    top: 177px;
+    left: 376px;
+}
+.kywp-a-06{
+    width: 163px;
+    top: 202px;
+    left: 81px;
+}
+.kywp-a-07{
+    width: 124px;
+    top: 202px;
+    right: 90px;
+}
+.kywp-a-08{
+    width: 39px;
+    top: 324px;
+    left: 65px;
+    line-height: 28px;
+}
+.kywp-a-09{
+    width: 91px;
+    top: 324px;
+    left: 115px;
+    line-height: 28px;
+}
+.kywp-a-10{
+    width: 44px;
+    top: 324px;
+    left: 217px;
+    line-height: 28px;
+}
+.kywp-a-11{
+    width: 35px;
+    top: 324px;
+    left: 271px;
+    line-height: 28px;
+}
+.kywp-a-12{
+    width: 104px;
+    top: 324px;
+    left: 316px;
+    line-height: 28px;
+}
+.kywp-a-13{
+    width: 93px;
+    top: 324px;
+    left: 432px;
+    line-height: 28px;
+}
+.kywp-a-14{
+    width: 39px;
+    top: 363px;
+    left: 65px;
+    line-height: 28px;
+}
+.kywp-a-15{
+    width: 91px;
+    top: 363px;
+    left: 115px;
+    line-height: 28px;
+}
+.kywp-a-16{
+    width: 44px;
+    top: 363px;
+    left: 217px;
+    line-height: 28px;
+}
+.kywp-a-17{
+    width: 35px;
+    top: 363px;
+    left: 271px;
+    line-height: 28px;
+}
+.kywp-a-18{
+    width: 104px;
+    top: 363px;
+    left: 316px;
+    line-height: 28px;
+}
+.kywp-a-19{
+    width: 93px;
+    left: 432px;
+    top: 363px;
+    line-height: 28px;
+}
+.kywp-a-20{
+    width: 39px;
+    top: 402px;
+    left: 65px;
+    line-height: 28px;
+}
+.kywp-a-21{
+    width: 91px;
+    top: 402px;
+    left: 115px;
+    line-height: 28px;
+}
+.kywp-a-22{
+    width: 44px;
+    top: 402px;
+    left: 217px;
+    line-height: 28px;
+}
+.kywp-a-23{
+    width: 35px;
+    top: 402px;
+    left: 271px;
+    line-height: 28px;
+}
+.kywp-a-24{
+    width: 104px;
+    top: 402px;
+    left: 316px;
+    line-height: 28px;
+}
+.kywp-a-25{
+    width: 94px;
+    left: 431px;
+    top: 402px;
+    line-height: 28px;
+}
+.kywp-a-26{
+    width: 39px;
+    top: 441px;
+    left: 65px;
+    line-height: 28px;
+}
+.kywp-a-27{
+    width: 91px;
+    top: 441px;
+    left: 115px;
+    line-height: 28px;
+}
+.kywp-a-28{
+    width: 44px;
+    top: 441px;
+    left: 217px;
+    line-height: 28px;
+}
+.kywp-a-29{
+    width: 35px;
+    top: 441px;
+    left: 271px;
+    line-height: 28px;
+}
+.kywp-a-30{
+    width: 104px;
+    top: 441px;
+    left: 316px;
+    line-height: 28px;
+}
+.kywp-a-31{
+    width: 94px;
+    left: 431px;
+    top: 441px;
+    line-height: 28px;
+}
+.kywp-a-32{
+    width: 39px;
+    top: 480px;
+    left: 65px;
+    line-height: 28px;
+}
+.kywp-a-33{
+    width: 91px;
+    top: 480px;
+    left: 115px;
+    line-height: 28px;
+}
+.kywp-a-34{
+    width: 44px;
+    top: 480px;
+    left: 217px;
+    line-height: 28px;
+}
+.kywp-a-35{
+    width: 35px;
+    top: 480px;
+    left: 271px;
+    line-height: 28px;
+}
+.kywp-a-36{
+    width: 104px;
+    top: 480px;
+    left: 316px;
+    line-height: 28px;
+}
+.kywp-a-37{
+    width: 94px;
+    top: 480px;
+    left: 431px;
+    line-height: 28px;
+}
+.kywp-a-38{
+    width: 39px;
+    top: 519px;
+    left: 65px;
+    line-height: 28px;
+}
+.kywp-a-39{
+    width: 91px;
+    top: 519px;
+    left: 115px;
+    line-height: 28px;
+}
+.kywp-a-40{
+    width: 44px;
+    top: 519px;
+    left: 217px;
+    line-height: 28px;
+}
+.kywp-a-41{
+    width: 35px;
+    top: 519px;
+    left: 271px;
+    line-height: 28px;
+}
+.kywp-a-42{
+    width: 104px;
+    top: 519px;
+    left: 316px;
+    line-height: 28px;
+}
+.kywp-a-43{
+    width: 94px;
+    top: 519px;
+    left: 431px;
+    line-height: 28px;
+}
+.kywp-a-44{
+    width: 39px;
+    top: 558px;
+    left: 65px;
+    line-height: 28px;
+}
+.kywp-a-45{
+    width: 91px;
+    top: 558px;
+    left: 115px;
+    line-height: 28px;
+}
+.kywp-a-46{
+    width: 44px;
+    top: 558px;
+    left: 217px;
+    line-height: 28px;
+}
+.kywp-a-47{
+    width: 35px;
+    top: 558px;
+    left: 271px;
+    line-height: 28px;
+}
+.kywp-a-48{
+    width: 104px;
+    top: 558px;
+    left: 316px;
+    line-height: 28px;
+}
+.kywp-a-49{
+    width: 94px;
+    top: 558px;
+    left: 431px;
+    line-height: 28px;
+}
+.kywp-a-50{
+    width: 194px;
+    bottom: 158px;
+    left: 66px;
+    line-height: 28px;
+}
+.kywp-a-51{
+    width: 194px;
+    bottom: 158px;
+    right: 95px;
+    line-height: 28px;
+}
+.kywp-a-52{
+    width: 50px;
+    bottom: 124px;
+    left: 96px;
+}
+.kywp-a-53{
+    width: 28px;
+    bottom: 124px;
+    left: 167px;
+}
+.kywp-a-54{
+    width: 28px;
+    bottom: 124px;
+    left: 215px;
+}
+.kywp-a-55{
+    width: 50px;
+    bottom: 124px;
+    right: 182px;
+}
+.kywp-a-56{
+   width: 28px;
+    bottom: 124px;
+    right: 133px;
+}
+.kywp-a-57{
+    width: 28px;
+    bottom: 124px;
+    right: 85px;
+}
+/*====
+====遗留物品清单 ====
+--*/
+.ylwp-main-01{
+    position: relative;
+    width:596px;
+    height: 842px;
+    background: url(../img/yiliuwupinqingdan.jpg) no-repeat;
+    background-size: 596px 842px;
+}
+.ylwp-a-01,.ylwp-a-02,
+.ylwp-a-03,.ylwp-a-04,
+.ylwp-a-05,.ylwp-a-06,
+.ylwp-a-08,.ylwp-a-07,
+.ylwp-a-09,.ylwp-a-10,
+.ylwp-a-11,.ylwp-a-12,
+.ylwp-a-13,.ylwp-a-14,
+.ylwp-a-15,.ylwp-a-16,
+.ylwp-a-17,.ylwp-a-18,
+.ylwp-a-19,.ylwp-a-20,
+.ylwp-a-21,.ylwp-a-22,
+.ylwp-a-23,.ylwp-a-24,
+.ylwp-a-25,.ylwp-a-26,
+.ylwp-a-27,.ylwp-a-28,
+.ylwp-a-29,.ylwp-a-30,
+.ylwp-a-31,.ylwp-a-32,
+.ylwp-a-33,.ylwp-a-34,
+.ylwp-a-35,.ylwp-a-36,
+.ylwp-a-37,.ylwp-a-38,
+.ylwp-a-39,.ylwp-a-40,
+.ylwp-a-41,.ylwp-a-42,
+.ylwp-a-43,.ylwp-a-44,
+.ylwp-a-45,.ylwp-a-46,
+.ylwp-a-47,.ylwp-a-48,
+.ylwp-a-49,.ylwp-a-50,
+.ylwp-a-51,.ylwp-a-52,
+.ylwp-a-53,.ylwp-a-54,
+.ylwp-a-55,.ylwp-a-56,
+.ylwp-a-57,.ylwp-a-58
+{
+    position:absolute;
+}
+.ylwp-a-01{
+    width: 345px;
+    top: 144px;
+    left: 159px;
+    line-height: 25px;
+}
+.ylwp-a-02{
+    width: 345px;
+    top: 181px;
+    left: 159px;
+}
+
+
+
+.ylwp-a-03{
+    width: 34px;
+    top: 243px;
+    left: 86px;
+    line-height: 30px;
+}
+.ylwp-a-04{
+    width: 98px;
+    top: 243px;
+    left: 129px;
+    line-height: 30px;
+}
+.ylwp-a-05{
+    width: 37px;
+    top: 243px;
+    left: 237px;
+    line-height: 30px;
+}
+.ylwp-a-06{
+    width: 37px;
+    top: 243px;
+    left: 284px;
+    line-height: 30px;
+}
+.ylwp-a-07{
+    width: 75px;
+    top: 243px;
+    left: 330px;
+    line-height: 30px;
+}
+.ylwp-a-08{
+    width: 51px;
+    top: 243px;
+    left: 415px;
+    line-height: 30px;
+}
+.ylwp-a-09{
+    width: 35px;
+    top: 243px;
+    left: 475px;
+    line-height: 30px;
+}
+
+.ylwp-a-10{
+    width: 34px;
+    top: 284px;
+    left: 86px;
+    line-height: 30px;
+}
+.ylwp-a-11{
+    width: 98px;
+    top: 284px;
+    left: 129px;
+    line-height: 30px;
+}
+.ylwp-a-12{
+    width: 37px;
+    top: 284px;
+    left: 237px;
+    line-height: 30px;
+}
+.ylwp-a-13{
+    width: 37px;
+    top: 284px;
+    left: 284px;
+    line-height: 30px;
+}
+.ylwp-a-14{
+    width: 75px;
+    top: 284px;
+    left: 330px;
+    line-height: 30px;
+}
+.ylwp-a-15{
+    width: 51px;
+    top: 284px;
+    left: 415px;
+    line-height: 30px;
+}
+.ylwp-a-16{
+    width: 35px;
+    top: 284px;
+    left: 475px;
+    line-height: 30px;
+}
+
+.ylwp-a-17{
+    width: 34px;
+    top: 324px;
+    left: 86px;
+    line-height: 30px;
+}
+.ylwp-a-18{
+    width: 98px;
+    top: 324px;
+    left: 129px;
+    line-height: 30px;
+}
+.ylwp-a-19{
+    width: 37px;
+    top: 324px;
+    left: 237px;
+    line-height: 30px;
+}
+.ylwp-a-20{
+    width: 37px;
+    top: 324px;
+    left: 284px;
+    line-height: 30px;
+}
+.ylwp-a-21{
+    width: 75px;
+    top: 324px;
+    left: 330px;
+    line-height: 30px;
+}
+.ylwp-a-22{
+    width: 51px;
+    top: 324px;
+    left: 415px;
+    line-height: 30px;
+}
+.ylwp-a-23{
+    width: 35px;
+    top: 324px;
+    left: 475px;
+    line-height: 30px;
+}
+
+.ylwp-a-24{
+    width: 34px;
+    top: 364px;
+    left: 86px;
+    line-height: 30px;
+}
+.ylwp-a-25{
+    width: 98px;
+    top: 364px;
+    left: 129px;
+    line-height: 30px;
+}
+.ylwp-a-26{
+    width: 37px;
+    top: 364px;
+    left: 237px;
+    line-height: 30px;
+}
+.ylwp-a-27{
+    width: 37px;
+    top: 364px;
+    left: 284px;
+    line-height: 30px;
+}
+.ylwp-a-28{
+    width: 75px;
+    top: 364px;
+    left: 330px;
+    line-height: 30px;
+}
+.ylwp-a-29{
+    width: 51px;
+    top: 364px;
+    left: 415px;
+    line-height: 30px;
+}
+.ylwp-a-30{
+    width: 35px;
+    top: 364px;
+    left: 475px;
+    line-height: 30px;
+}
+
+.ylwp-a-31{
+    width: 34px;
+    top: 404px;
+    left: 86px;
+    line-height: 30px;
+}
+.ylwp-a-32{
+    width: 98px;
+    top: 404px;
+    left: 129px;
+    line-height: 30px;
+}
+.ylwp-a-33{
+    width: 37px;
+    top: 404px;
+    left: 237px;
+    line-height: 30px;
+}
+.ylwp-a-34{
+    width: 37px;
+    top: 404px;
+    left: 284px;
+    line-height: 30px;
+}
+.ylwp-a-35{
+    width: 75px;
+    top: 404px;
+    left: 330px;
+    line-height: 30px;
+}
+.ylwp-a-36{
+    width: 51px;
+    top: 404px;
+    left: 415px;
+    line-height: 30px;
+}
+.ylwp-a-37{
+    width: 35px;
+    top: 404px;
+    left: 475px;
+    line-height: 30px;
+}
+
+.ylwp-a-38{
+    width: 124px;
+    bottom: 44px;
+    left: 126px;
+    line-height: 30px;
+}
+.ylwp-a-39{
+    width: 133px;
+    bottom: 44px;
+    right: 100px;
+    line-height: 30px;
+}
+
+/*====
+===赔偿调解申请书 ====
+--*/
+.pctj-main-01{
+    position: relative;
+    width:596px;
+    height: 842px;
+    background: url(../img/pctjsqs.jpg) no-repeat;
+}
+.pctj-b-01,.pctj-b-02,
+.pctj-b-03,.pctj-b-04,
+.pctj-b-05,.pctj-b-06,
+.pctj-b-08,.pctj-b-07,
+.pctj-b-09,.pctj-b-10,
+.pctj-b-11,.pctj-b-12,
+.pctj-b-13,.pctj-b-14,
+.pctj-b-15,.pctj-b-16,
+.pctj-b-17,.pctj-b-18,
+.pctj-b-19,.pctj-b-20
+{
+    position:absolute;
+}
+.pctj-b-01{
+    width: 191px;
+    top: 189px;
+    left: 93px;
+}
+.pctj-b-02{
+    width: 91px;
+    top: 227px;
+    left: 192px;
+}
+.pctj-b-03{
+    width: 82px;
+    top: 227px;
+    left: 318px;
+}
+.pctj-b-04{
+    width: 78px;
+    top: 227px;
+    right: 79px;
+}
+.pctj-b-05{
+    width: 90px;
+    top: 267px;
+    left: 151px;
+}
+.pctj-b-06{
+    width: 63px;
+    top: 267px;
+    left: 304px;
+}
+.pctj-b-07{
+    width: 80px;
+    top: 267px;
+    right: 83px;
+}
+.pctj-b-08{
+    width: 328px;
+    top: 307px;
+    right: 83px;
+}
+.pctj-b-09{
+    width: 63px;
+    top: 347px;
+    left: 108px;
+}
+.pctj-b-10{
+    width: 38px;
+    top: 347px;
+    left: 190px;
+}
+.pctj-b-11{
+    width: 43px;
+    top: 347px;
+    left: 246px;
+}
+.pctj-b-12{
+    width: 36px;
+    top: 347px;
+    left: 308px;
+}
+.pctj-b-13{
+    width: 133px;
+    top: 347px;
+    left: 378px;
+}
+.pctj-b-14{
+    width: 417px;
+    bottom: 180px;
+    left: 95px;
+    line-height: 26px;
+}
+.pctj-b-15{
+    width: 96px;
+    bottom: 118px;
+    right: 79px;
+}
+.pctj-b-16{
+    width: 38px;
+    bottom: 66px;
+    right: 184px;
+}
+.pctj-b-17{
+    width: 22px;
+    bottom: 66px;
+    right: 141px;
+}
+.pctj-b-18{
+    width: 22px;
+    bottom: 66px;
+    right: 100px;
+}
+
+/*====
+===调解记录 ====
+--*/
+.tjjl-main-01{
+    position: relative;
+    width:596px;
+    height: 842px;
+    background: url(../img/tjjl-01.jpg) no-repeat;
+}
+.tjjl-b-01,.tjjl-b-02,
+.tjjl-b-03,.tjjl-b-04,
+.tjjl-b-05,.tjjl-b-06,
+.tjjl-b-08,.tjjl-b-07,
+.tjjl-b-09,.tjjl-b-10,
+.tjjl-b-11,.tjjl-b-12,
+.tjjl-b-13,.tjjl-b-14,
+.tjjl-b-15,.tjjl-b-16,
+.tjjl-b-17,.tjjl-b-18,
+.tjjl-b-19,.tjjl-b-20,
+.tjjl-b-21,.tjjl-b-22,
+.tjjl-b-23,.tjjl-b-24,
+.tjjl-b-25,.tjjl-b-26,
+.tjjl-b-27,.tjjl-b-28,
+.tjjl-b-29,.tjjl-b-30,
+.tjjl-b-31,.tjjl-b-32
+{
+    position:absolute;
+}
+.tjjl-b-01{
+    width: 61px;
+    top: 136px;
+    left: 190px;
+}
+.tjjl-b-02{
+    width: 30px;
+    top: 136px;
+    left: 270px;
+}
+.tjjl-b-03{
+    width: 30px;
+    top: 136px;
+    left: 318px;
+}
+.tjjl-b-04{
+    width: 30px;
+    top: 136px;
+    left: 367px;
+}
+.tjjl-b-05{
+    width: 30px;
+    top: 136px;
+    left: 415px;
+}
+.tjjl-b-06{
+    width: 61px;
+    top: 162px;
+    left: 190px;
+}
+.tjjl-b-07{
+    width: 30px;
+    top: 162px;
+    left: 270px;
+}
+.tjjl-b-08{
+    width: 30px;
+    top: 162px;
+    left: 318px;
+}
+.tjjl-b-09{
+    width: 30px;
+    top: 162px;
+    left: 367px;
+}
+.tjjl-b-10{
+    width: 30px;
+    top: 162px;
+    left: 415px;
+}
+.tjjl-b-11{
+    width: 308px;
+    top: 214px;
+    left: 189px;
+}
+.tjjl-b-12{
+    width: 308px;
+    top: 240px;
+    left: 189px;
+}
+.tjjl-b-13{
+    width: 44px;
+    top: 267px;
+    left: 315px;
+}
+.tjjl-b-14{
+    width: 35px;
+    top: 267px;
+    left: 395px;
+}
+.tjjl-b-15{
+    width: 28px;
+    top: 267px;
+    left: 468px;
+}
+.tjjl-b-16{
+    width: 113px;
+    top: 291px;
+    left: 188px;
+}
+.tjjl-b-17{
+    width: 123px;
+    top: 291px;
+    right: 96px;
+}
+.tjjl-b-18{
+    width: 273px;
+    top: 317px;
+    right: 96px;
+}
+.tjjl-b-19{
+    width: 44px;
+    top: 343px;
+    left: 315px;
+}
+.tjjl-b-20{
+    width: 35px;
+    top: 343px;
+    left: 395px;
+}
+.tjjl-b-21{
+    width: 28px;
+    top: 343px;
+    left: 468px;
+}
+.tjjl-b-22{
+    width: 113px;
+    top: 369px;
+    left: 188px;
+}
+.tjjl-b-23{
+    width: 123px;
+    top: 369px;
+    right: 96px;
+}
+.tjjl-b-24{
+    width: 273px;
+    top: 395px;
+    right: 96px;
+}
+.tjjl-b-25{
+    width: 44px;
+    top: 421px;
+    left: 315px;
+}
+.tjjl-b-26{
+    width: 35px;
+    top: 421px;
+    left: 395px;
+}
+.tjjl-b-27{
+    width: 28px;
+    top: 421px;
+    left: 468px;
+}
+.tjjl-b-28{
+    width: 113px;
+    top: 447px;
+    left: 188px;
+}
+.tjjl-b-29{
+    width: 123px;
+    top: 447px;
+    right: 96px;
+}
+.tjjl-b-30{
+    width: 273px;
+    top: 473px;
+    right: 96px;
+}
+.tjjl-b-31{
+    width: 415px;
+    bottom: 88px;
+    right: 87px;
+    line-height: 25px;
+}
+/*====
+====认定审核 ====
+--*/
+.rdsh-main-01{
+    position: relative;
+    width:596px;
+    height: 842px;
+    background: url(../img/rdsh-01.jpg) no-repeat;
+    background-size: 596px 842px;
+}
+.rdsh-b-01,.rdsh-b-02,
+.rdsh-b-03,.rdsh-b-04,
+.rdsh-b-05,.rdsh-b-06,
+.rdsh-b-08,.rdsh-b-07,
+.rdsh-b-09,.rdsh-b-10,
+.rdsh-b-11,.rdsh-b-12,
+.rdsh-b-13,.rdsh-b-14,
+.rdsh-b-15,.rdsh-b-16,
+.rdsh-b-17,.rdsh-b-18,
+.rdsh-b-19,.rdsh-b-20,
+.rdsh-b-21,.rdsh-b-22,
+.rdsh-b-23,.rdsh-b-24,
+.rdsh-b-25,.rdsh-b-26,
+.rdsh-b-27,.rdsh-b-28,
+.rdsh-b-29,.rdsh-b-30,
+.rdsh-b-31,.rdsh-b-32,
+.rdsh-b-33,.rdsh-b-34,
+.rdsh-b-35,.rdsh-b-36,
+.rdsh-b-37,.rdsh-b-38
+{
+    position:absolute;
+}
+.rdsh-b-01{
+    width: 105px;
+    top: 124px;
+    left: 119px;
+    line-height: 28px;
+}
+.rdsh-b-02{
+    width: 81px;
+    top: 124px;
+    left: 309px;
+    line-height: 28px;
+}
+.rdsh-b-03{
+    width: 96px;
+    top: 124px;
+    left: 443px;
+    line-height: 28px;
+}
+.rdsh-b-04{
+   width: 39px;
+    top: 193px;
+    left: 50px;
+    line-height: 38px;
+   }
+.rdsh-b-05{
+    width: 17px;
+    top: 193px;
+    left: 95px;
+    line-height: 38px;
+}
+.rdsh-b-06{
+    width: 19px;
+    top: 193px;
+    left: 119px;
+    line-height: 38px;
+}
+.rdsh-b-07{
+    width: 79px;
+    top: 193px;
+    left: 145px;
+    line-height: 38px;
+}
+.rdsh-b-08{
+    width: 71px;
+    top: 193px;
+    left: 230px;
+    line-height: 38px;
+}
+.rdsh-b-09{
+    width: 83px;
+    top: 193px;
+    left: 308px;
+    line-height: 38px;
+}
+
+.rdsh-b-10{
+    width: 36px;
+    top: 193px;
+    left: 398px;
+    line-height: 38px;
+
+}
+.rdsh-b-11{
+    width: 97px;
+    top: 193px;
+    left: 443px;
+    line-height: 38px;
+}
+.rdsh-b-12{
+    width:50px;
+}
+
+
+
+.rdsh-txt{
+    position: absolute;
+    left: 68px;
+    bottom: 170px;
+    width: 460px;
+    height: 360px;
+}
+.rdsh-b-30{
+    right:80px;
+    bottom:122px;
+}
+.rdsh-b-31{
+    width: 40px;
+    right: 220px;
+    bottom: 92px;
+}
+.rdsh-b-32{
+    width: 11px;
+    right: 190px;
+    bottom: 92px;
+}
+.rdsh-b-33{
+    width: 20px;
+    right: 157px;
+    bottom: 92px;
+}
+/*====
+====询问笔录-1 ====
+--*/
+.xwbl-main-01{
+    position: relative;
+    width:596px;
+    height: 842px;
+    background: url(../img/xwbl-1.jpg) no-repeat;
+}
+.a-b-01,.a-b-02,
+.a-b-03,.a-b-04,
+.a-b-05,.a-b-06,
+.a-b-08,.a-b-07,
+.a-b-09,.a-b-10,
+.a-b-11,.a-b-12,
+.a-b-13,.a-b-14,
+.a-b-15,.a-b-16,
+.a-b-17,.a-b-18,
+.a-b-19,.a-b-20,
+.a-b-21,.a-b-22,
+.a-b-23,.a-b-24,
+.a-b-25,.a-b-26,
+.a-b-27,.a-b-28,
+.a-b-29,.a-b-30,
+.a-b-31,.a-b-32,
+.a-b-33,.a-b-34,
+.a-b-35,.a-b-36,
+.a-b-37,.a-b-38
+{
+    position:absolute;
+}
+.a-b-01{
+    width: 17px;
+    top: 67px;
+    right: 115px;
+}
+.a-b-02{
+    width: 17px;
+    top: 98px;
+    right: 136px;
+}
+.a-b-03{
+    width: 17px;
+    top: 98px;
+    right: 89px;
+}
+.a-b-04{
+    width: 26px;
+    height: 20px;
+    top: 133px;
+    right: 225px;
+}
+.a-b-05{
+    width: 26px;
+    top: 165px;
+    left: 149px;
+}
+.a-b-06{
+    width: 16px;
+    top: 165px;
+    left: 195px;
+}
+.a-b-07{
+    width: 16px;
+    top: 165px;
+    left: 227px;
+}
+.a-b-08{
+    width: 16px;
+    top: 165px;
+    left: 260px;
+}
+.a-b-09{
+    width: 16px;
+    top: 165px;
+    left: 293px;
+}
+.a-b-10{
+    width: 29px;
+    top: 165px;
+    left: 341px;
+}
+.a-b-11{
+    width: 16px;
+    top: 165px;
+    right: 188px;
+}
+.a-b-12{
+    width: 16px;
+    top: 165px;
+    right: 155px;
+}
+.a-b-13{
+    width: 16px;
+    top: 165px;
+    right: 123px;
+}
+.a-b-14{
+    width: 16px;
+    top: 165px;
+    right: 90px;
+}
+.a-b-15{
+    width: 352px;
+    top: 191px;
+    right: 88px;
+}
+.a-b-16{
+    width: 99px;
+    top: 217px;
+    left: 190px;
+}
+.a-b-17{
+    width: 157px;
+    top: 217px;
+    left: 350px;
+}
+.a-b-18{
+    width: 99px;
+    top: 243px;
+    left: 190px;
+}
+.a-b-19{
+    width: 157px;
+    top: 243px;
+    left: 350px;
+}
+.a-b-20{
+    width: 110px;
+    top: 270px;
+    left: 150px;
+}
+.a-b-21{
+    width: 39px;
+    top: 270px;
+    left: 293px;
+}
+.a-b-22{
+    width: 111px;
+    top: 270px;
+    left: 395px;
+}
+.a-b-23{
+    width: 341px;
+    top: 296px;
+    left: 164px;
+}
+.a-b-24{
+    width: 370px;
+    top: 322px;
+    left: 135px;
+}
+.a-b-25{
+    width: 226px;
+    top: 348px;
+    left: 277px;
+}
+.a-b-26{
+    width: 355px;
+    top: 373px;
+    left: 151px;
+}
+.a-b-27{
+    width: 21px;
+    top: 401px;
+    left: 258px;
+}
+.a-b-28{
+    width: 23px;
+    top: 401px;
+    left: 297px;
+}
+.a-b-29{
+    width: 23px;
+    top: 401px;
+    left: 336px;
+}
+.a-b-30{
+    width: 23px;
+    top: 401px;
+    left: 376px;
+}
+.a-b-31{
+    width: 19px;
+    top: 401px;
+    right: 118px;
+}
+.a-b-32{
+    width: 19px;
+    top: 401px;
+    right: 82px;
+}
+.a-b-33{
+    width: 24px;
+    top: 426px;
+    left: 106px;
+}
+.a-b-34{
+    width: 389px;
+    top: 542px;
+    left: 123px;
+}
+.a-b-35{
+    width: 389px;
+    height: 150px;
+    line-height: 25px;
+    top: 567px;
+    left: 123px;
+}
+.a-b-36{
+    width:120px;
+    bottom: 59px;
+    left: 253px;
+}
+.a-b-37{
+    width: 16px;
+    bottom: 59px;
+    right: 161px;
+}
+.a-b-38{
+    width: 19px;
+    bottom: 59px;
+    right: 97px;
+}
+
+/*----------
+ -----询问笔录-2
+ ======*/
+.xwbl-main-02{
+    position: relative;
+    width:596px;
+    height: 842px;
+    background: url(../img/xwbl-2.jpg) no-repeat;
+}
+.b-b-01,.b-b-02,
+.b-b-03,.b-b-04,
+.b-b-05,.b-b-06,
+.b-b-08,.b-b-07,
+.b-b-09,.b-b-10,
+.b-b-11,.b-b-12,
+.b-b-13,.b-b-14,
+.b-b-15,.b-b-16,
+.b-b-17,.b-b-18,
+.b-b-19,.b-b-20,
+.b-b-21,.b-b-22,
+.b-b-23,.b-b-24,
+.b-b-25,.b-b-26,
+.b-b-27,.b-b-28,
+.b-b-29,.b-b-30,
+.b-b-31,.b-b-32,
+.b-b-33,.b-b-34,
+.b-b-35,.b-b-36,
+.b-b-37,.b-b-38
+{
+    position:absolute;
+}
+.b-b-01{  
+    padding:2px 0; 
+    top: 86px;
+    right: 232px;
+    width: 30px;
+}
+.b-b-02{  
+    width: 28px;
+    top: 115px;
+    left: 145px;
+}
+.b-b-03{  
+    width: 17px;
+    top: 115px;
+    left: 190px;
+}
+.b-b-04{  
+    width: 18px;
+    top: 115px;
+    left: 223px;
+}
+.b-b-05{  
+    width: 18px;
+    top: 115px;
+    left: 256px;
+}
+.b-b-06{  
+    width: 18px;
+    top: 115px;
+    left: 290px;
+}
+.b-b-07{  
+    width: 29px;
+    top: 115px;
+    left: 337px;
+}
+.b-b-08{  
+    width: 18px;
+    top: 115px;
+    left: 383px;
+}
+.b-b-09{  
+    width: 18px;
+    top: 115px;
+    right: 158px;
+}
+.b-b-10{  
+    width: 18px;
+    top: 115px;
+    right: 158px;
+}
+.b-b-11{  
+    width: 18px;
+    top: 115px;
+    right: 126px;
+}
+.b-b-12{  
+    width: 18px;
+    top: 115px;
+    right: 91px;
+}
+.b-b-13{  
+    width: 380px;
+    top: 141px;
+    right: 92px;
+}
+.b-b-14{  
+   width: 96px;
+    top: 168px;
+    left: 186px;
+}
+.b-b-15{  
+    width: 153px;
+    top: 168px;
+    left: 347px;
+}
+.b-b-16{  
+   width: 96px;
+    top: 193px;
+    left: 186px;
+}
+.b-b-17{  
+    width: 153px;
+    top: 193px;
+    left: 347px;
+}
+.b-b-18{  
+    width: 156px;
+    top: 219px;
+    left: 146px;
+}
+.b-b-19{  
+    width: 68px;
+    top: 219px;
+    left: 345px;
+}
+.b-b-20{  
+    width: 54px;
+    top: 219px;
+    right: 91px;
+}
+.b-b-21{  
+    width: 112px;
+    top: 245px;
+    left: 149px;
+}
+.b-b-22{  
+    width: 175px;
+    top: 245px;
+    left: 325px;
+}
+.b-b-23{  
+    width: 65px;
+    top: 271px;
+    left: 118px;
+}
+.b-b-24{  
+    width: 83px;
+    top: 271px;
+    left: 245px;
+}
+.b-b-25{  
+    width: 110px;
+    top: 271px;
+    left: 391px;
+}
+.b-b-26{  
+    width: 231px;
+    top: 297px;
+    right: 92px;
+}
+.b-b-27{  
+    width: 369px;
+    top: 323px;
+    right: 92px;
+}
+.b-b-28{  
+    width: 353px;
+    top: 349px;
+    right: 92px;
+}
+.b-b-29{  
+    width: 100px;
+    top: 381px;
+    left: 183px;
+}
+.b-b-30{  
+    width: 353px;
+    top: 349px;
+    right: 92px;
+}
+.b-b-31{  
+    width: 380px;
+    height: 308px;
+    bottom: 103px;
+    right: 96px;
+}
+.b-b-32{  
+    width: 120px;
+    bottom: 71px;
+    left: 253px;
+}
+.b-b-33{  
+    width: 17px;
+    bottom: 71px;
+    left: 416px;
+}
+.b-b-34{  
+    width: 20px;
+    bottom: 71px;
+    left: 477px;
+}
+/*====
+====询问笔录-13 ====
+--*/
+.xwbl-main-03{
+    position: relative;
+    width:596px;
+    height: 842px;
+    background: url(../img/xwbl-3.jpg) no-repeat;
+}
+.c-b-01,.c-b-02,
+.c-b-03,.c-b-04,
+.c-b-05,.c-b-06,
+.c-b-08,.c-b-07,
+.c-b-09,.c-b-10,
+.c-b-11,.c-b-12,
+.c-b-13,.c-b-14,
+.c-b-15,.c-b-16,
+.c-b-17,.c-b-18,
+.c-b-19,.c-b-20,
+.c-b-21,.c-b-22,
+.c-b-23,.c-b-24,
+.c-b-25,.c-b-26,
+.c-b-27,.c-b-28,
+.c-b-29,.c-b-30,
+.c-b-31,.c-b-32,
+.c-b-33,.c-b-34,
+.c-b-35,.c-b-36,
+.c-b-37,.c-b-38
+{
+    position:absolute;
+}
+.c-b-01{
+    width:425px;
+    line-height: 25px;
+    top: 150px;
+    left: 88px;
+}
+.c-b-02{
+    width: 140px;
+    bottom: 94px;
+    left: 160px;
+}
+.c-b-03{
+    width: 37px;
+    bottom: 94px;
+    right: 199px;
+}
+.c-b-04{
+    width: 30px;
+    bottom: 94px;
+    right: 125px;
+}
+
+
+
+
+/* liyueddddddddddddddddddddddddddddddddddddddddddd */
+.chakan{text-align: left;}
+.arrow-left{margin-top: 241px;
+    margin-left: 19px;
+    float: left;}
+.arrow-right{float:right;margin-top: 241px;margin-right: 60px;}
+.text-in {
+    border: 1px solid #ccc;
+    height: 22px;
+    float: left;
+    margin-right: 10px;
+}
+.close{text-align: center;}
+
+
+.sfb-main-51{
+    margin-top: 10px;
+    border:2px solid #ccc;
+    width:596px;
+    height: 842px;
+    background: url(../img/5-1.jpg) no-repeat;
+    background-size:596px 842px ;
+
+}
+.sfb-main-52{
+    margin-top: 10px;
+
+    border:2px solid #ccc;
+    width:596px;
+    height: 842px;
+    background: url(../img/5-2.jpg) no-repeat;
+    background-size:596px 842px ;
+
+}
+.sfb-main-53{
+    margin-top: 10px;
+
+    border:2px solid #ccc;
+    width:596px;
+    height: 842px;
+    background: url(../img/5-3.jpg) no-repeat;
+    background-size:596px 842px ;
+}
+
+/* .ck:first-child{
+    background:#9CCC65;
+} */
+.ck a{color:#000;}
+.jianyan1{
+    margin-left: 526px;
+    margin-top: 46px;
+    height: 30px;
+    width: 30px;
+}
+.jianyan2{
+    margin-top: 5px;
+    line-height: 33px;
+    margin-left: 72px;
+    width: 489px;
+}
+.jianyan3{
+    width: 533px;
+    line-height: 22px;
+    margin-left: 30px;
+    margin-top: 121px;
+}
+.jianyan4{
+    width: 533px;
+    line-height: 22px;
+    margin-left: 30px;
+    margin-top: 26px;
+}
+.jianyan5{
+    width: 533px;
+    line-height: 22px;
+    margin-left: 30px;
+    margin-top: 21px;
+}
+.jianyan6{
+    width: 533px;
+    line-height: 22px;
+    margin-left: 30px;
+    margin-top: 21px;
+}
+.jianyan7{
+    width: 533px;
+    line-height: 22px;
+    margin-left: 30px;
+    margin-top: 160px;
+}
+.jianyan8{
+    width: 533px;
+    line-height: 22px;
+    margin-left: 30px;
+    margin-top: 13px;
+}
+.jianyan9{
+    width: 533px;
+    line-height: 22px;
+    margin-left: 30px;
+    margin-top: 13px;
+}
+.jianyan10{
+    width: 533px;
+    line-height: 22px;
+    margin-left: 30px;
+    margin-top: 16px;
+}
+.jianyan11{
+    width: 533px;
+    line-height: 22px;
+    margin-left: 30px;
+    margin-top: 32px;
+}
+.jianyan12{
+    width: 533px;
+    line-height: 22px;
+    margin-left: 30px;
+    margin-top: 113px;
+}

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/07.css">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body style="background:#fff;">
+    <div id="titleBox" style="overflow:auto">
+        <div class="clearfix">
+            <input type="text" placeholder="部门名称" class="fl" style="margin-left:30%">
+            <img src="../img/sousuo.jpg" alt="" class="fl" style="height:27px;margin-left:2px;border-radius:2px">
+            <div class="shuaxin fr" style="margin-right:10px"><img src="../images/shuaxin.png" height="41" width="42" /></div>
+        </div>
+    </div>
+    <div id="imgBox" class="clearfix" style="border:1px solid #ccc;padding:2px 10px ">
+        <div class="fl"><img src="../img/jinyong.jpg" alt=""></div>
+        <div class="fl" style="margin-left:3px" id="tianjiaBtn"><img src="../img/tianjiabumen.jpg" alt=""></div>
+    </div>
+    <div class="main">
+        <table width="100%" border="0" cellspacing="1" cellpadding="0">
+            <thead>
+                <tr style="height:30px">
+                    <th style="width:5%">
+                        <input type="checkbox" style="width:15px;height:15px;" id="allCheck">
+                    </th>
+                    <th>部门名称</th>
+                    <th>所属省</th>
+                    <th>所属市</th>
+                    <th>状态</th>
+                    <th>操作</th>
+                </tr>
+            </thead>
+            <tbody id="listBox">
+                <tr v-for='item in items'>
+                    <td>
+                        <input type="checkbox" class="check" style="width:15px;height:15px;">
+                    </td>
+                    <td style="width:25%">{{item.name}}</td>
+                    <td style="width:20%">{{item.province}}</td>
+                    <td style="width:20%">{{item.city}}</td>
+                    <td style="width:10%" v-if="item.state == 1">
+                        正常
+                    </td>
+                    <td v-else-if="item.state == 2">
+                        禁止
+                    </td>
+                    <td>编辑 分配权限</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="tianjia" id="tianjia">
+        <div class="line1">添加部门
+            <img id="close1" src="../images/cha.png">
+        </div>
+        <div class="line2">部门名称
+            <input type="text" placehoder="单行输入" id="t1" />
+        </div>
+        <div class="line2">所属省
+            <input type="text" placehoder="单行输入" id="t2" />
+        </div>
+        <div class="line2">所属市
+            <input type="text" placehoder="单行输入" id="t3" />
+        </div>
+        <div class="line3">
+            <button id="close2" type="">关闭</button>
+            <button id="close3" type="">添加</button>
+        </div>
+    </div>
+</body>
+<script src="../js/jquery-1.10.2.js"></script>
+<script>
+$(".tianjia").hide();
+</script>
+<script src="../js/vue.min.js?v=1.0.0"></script>
+<script src="../js/common/utility.js "></script>
+<script src="../js/common/config.js "></script>
+<script src="../js/layer/mobile/layer.js"></script>
+<script src="../js/11-07.js"></script>
+
+</html>

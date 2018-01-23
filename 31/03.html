@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/03.css">
+         <link rel="stylesheet" type="text/css" href="../css/style/pagination.css" media="screen">
+        <script src="http://www.jq22.com/jquery/jquery-1.10.2.js"></script>
+    </head>
+    <body>
+        <div class="top">
+            <div class="ck"><span class="top11">信息采集</span></div>
+            <div class="refresh"><img src="../images/shuaxin.png" height="41" width="42"/></div>
+        </div>
+        <div class="select">
+            <span>筛选：</span>
+            <input class="text-in" type="text" placehoder="单行输入...">
+            <select class="select-in" >
+                <option value="">自动识别</option>
+                <option value="">车牌号</option>
+                <option value="">车架号</option>
+                <option value="">案件号</option>
+                <option value="">姓名</option>
+            </select>
+            <span class="search">查询</span>
+        </div>
+        <div class="main21">
+             <table width="95%" class="all-table">
+              <thead>
+                <tr>
+                  <th>案件号</th>
+                  <th>报警人</th>
+                  <th class="name">接警人</th>
+                  <th>报警时间</th>
+                  <th>所属大队</th>
+                  <th>信息采集</th>
+                  <th>查看详细图片</th>
+                  
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>1234</td>
+                  <td>李月</td>
+                  <td>贾子峰</td>
+                  <td>2017-02-01</td>
+                  <td>石家庄</td>
+                  <td class="tianjia">2张<img class="arrow-up" src="../images/up.png">
+                          <img class="arrow-down" src="../images/down.png"></td>
+                  <td><span class="tianjia">查看</span> | 操作</td>
+
+                </tr>
+
+                <tr class="tian-content">  
+                  <td  class="chakan" colspan="7" valign="top">
+                    <div class="tian-content1">
+                      <img class="arrow-left" src="../images/arrow-right.png" height="39" width="24" alt="" />
+                      <div class="line0">
+                          <div class="pic" style=" position: relative;width:522px;padding:30px;background: #fafafa;">
+                                <table>
+                                     <tr><td style="background:#fff; padding-left:10px;" colspan="3">基本信息</td></tr>
+                                     <tr>
+                                         <td>
+                                             <lable>事故时间</lable>
+                                             <input type="text" placeholder="请输入单行内容" />
+                                         </td>
+                                         <td>
+                                              <lable>道路名称</lable>
+                                             <input type="text" placeholder="请输入单行内容" />
+                                         </td>
+                                         <td>
+                                              <lable>公里数</lable>
+                                             <input type="text" placeholder="请输入单行内容" />
+                                         </td>
+                                     </tr>
+                                     <tr>
+                                         <td>
+                                             <lable>米数</lable>
+                                             <input type="text" placeholder="请输入单行内容" />
+                                         </td>
+                                         <td>
+                                              <lable>路名/地点</lable>
+                                             <input type="text" placeholder="请输入单行内容" />
+                                         </td>
+                                         <td>
+                                              <lable>横断面位置</lable>
+                                             <input type="text" placeholder="请输入单行内容" />
+                                         </td>
+                                     </tr>
+                                     <tr>
+                                         <td>
+                                             <lable>当场死亡</lable>
+                                             <input type="text" placeholder="请输入单行内容" />
+                                         </td>
+                                         <td>
+                                              <lable>抢救无效死亡</lable>
+                                             <input type="text" placeholder="请输入单行内容" />
+                                         </td>
+                                         <td>
+                                              <lable>受伤</lable>
+                                             <input type="text" placeholder="请输入单行内容" />
+                                         </td>
+                                     </tr>
+                                     <tr>
+                                         <td>
+                                             <lable>下落不明</lable>
+                                             <input type="text" placeholder="请输入单行内容" />
+                                         </td>
+                                         <td>
+                                              <lable>24小时死亡</lable>
+                                             <input type="text" placeholder="请输入单行内容" />
+                                         </td>
+                                         <td>
+                                              <lable>24小时受伤</lable>
+                                             <input type="text" placeholder="请输入单行内容" />
+                                         </td>
+                                     </tr>
+                                     <tr>
+                                         <td>
+                                             <lable>3日内死亡</lable>
+                                             <input type="text" placeholder="请输入单行内容" />
+                                         </td>
+                                         <td>
+                                              <lable>3日内受伤</lable>
+                                             <input type="text" placeholder="请输入单行内容" />
+                                         </td>
+                                         <td>
+                                              <lable>7日内死亡</lable>
+                                             <input type="text" placeholder="请输入单行内容" />
+                                         </td>
+                                     </tr>
+                                     <tr>
+                                         <td>
+                                             <lable>7日内受伤</lable>
+                                             <input type="text" placeholder="请输入单行内容" />
+                                         </td>
+                                         <td>
+                                              <lable>30日内死亡</lable>
+                                             <input type="text" placeholder="请输入单行内容" />
+                                         </td>
+                                         <td>
+                                              <lable>30日内受伤</lable>
+                                             <input type="text" placeholder="请输入单行内容" />
+                                         </td>
+                                     </tr>
+                                     <tr>
+                                         <td>
+                                             <lable>事故形态</lable>
+                                             <input type="text" placeholder="请输入单行内容" />
+                                         </td>
+                                         <td>
+                                              <lable>车辆间事故</lable>
+                                             <input type="text" placeholder="请输入单行内容" />
+                                         </td>
+                                         <td>
+                                              <lable>单车事故(事故碰撞)</lable>
+                                             <input type="text" placeholder="请输入单行内容" />
+                                         </td>
+                                     </tr>
+                                     <tr>
+                                         <td>
+                                             <lable>现场形态</lable>
+                                             <input type="text" placeholder="请输入单行内容" />
+                                         </td>
+                                         <td>
+                                              <lable>是否运载危险物品</lable>
+                                             <input type="text" placeholder="请输入单行内容" />
+                                         </td>
+                                         <td>
+                                              <lable>危险品事故后果</lable>
+                                             <input type="text" placeholder="请输入单行内容" />
+                                         </td>
+                                     </tr>
+                                     <tr>
+                                         <td>
+                                             <lable>事故类型</lable>
+                                             <input type="text" placeholder="请输入单行内容" />
+                                         </td>
+                                         <td>
+                                              <lable>事故初查原因</lable><br />
+                                             <input type="text" placeholder="请输入单行内容" />
+                                         </td>                 
+                                     </tr>
+
+                                     <tr><td style="background:#fff; padding-left:10px;" colspan="3">其它基本信息</td></tr>
+                                     <tr>
+                                         <td colspan="3">
+                                             <lable>简要案情</lable>
+                                             <textarea name="" id="" cols="50" rows="4"></textarea>
+                                         </td>                 
+                                     </tr>
+                                     <tr>
+                                         <td colspan="3">
+                                             <lable>事故认定原因</lable>
+                                             <textarea name="" id="" cols="50" rows="4"></textarea>
+                                         </td>                 
+                                     </tr>
+                                     <tr>
+                                         <td>
+                                             <lable>直接财产损失</lable>
+                                             <input type="text" placeholder="请输入单行内容"/>
+                                         </td>
+                                         <td>
+                                             <lable>天气</lable>
+                                             <input type="text" placeholder="请输入单行内容"/>
+                                         </td> 
+                                         <td>
+                                             <lable>能见度</lable>
+                                             <input type="text" placeholder="请输入单行内容"/>
+                                         </td>    
+                                     </tr>
+                                     <tr>
+                                         <td>
+                                             <lable>逃逸是否侦破</lable>
+                                             <input type="text" placeholder="请输入单行内容"/>
+                                         </td>
+                                         <td>
+                                             <lable>逃逸侦破时间</lable>
+                                             <input type="text" placeholder="请输入单行内容"/>
+                                         </td> 
+                                         <td>
+                                             <lable>路面状况</lable>
+                                             <input type="text" placeholder="请输入单行内容"/>
+                                         </td>  
+                                     </tr>
+                                     <tr>
+                                         <td>
+                                             <lable>路标情况</lable>
+                                             <input type="text" placeholder="请输入单行内容"/>
+                                         </td>
+                                         <td>
+                                             <lable>照明条件</lable>
+                                             <input type="text" placeholder="请输入单行内容"/>
+                                         </td> 
+                                         <td>
+                                             <lable>办案人</lable>
+                                             <input type="text" placeholder="请输入单行内容"/>
+                                         </td>  
+                                     </tr> 
+                                     <tr>
+                                         <td colspan="3">
+                                             <lable>交通信号方式</lable>
+                                             <input style="width:485px;" type="text" placeholder="请输入单行内容"/>
+                                         </td> 
+                                     </tr> 
+                                     <tr>
+                                         <td colspan="3">
+                                             <lable>122接报编号</lable>
+                                             <input style="width:485px;" type="text" placeholder="请输入单行内容"/>
+                                         </td> 
+                                     </tr>  
+                                     <tr>
+                                        <td style="background:#fff; padding-left:10px;" colspan="3">道路关联信息</td></tr>
+                                     <tr>
+                                         <td>
+                                             <lable>道路类型</lable>
+                                             <input type="text" placeholder="请输入单行内容" />
+                                         </td>
+                                         <td>
+                                              <lable>公路行政等级</lable>
+                                             <input type="text" placeholder="请输入单行内容" />
+                                         </td>
+                                         <td>
+                                              <lable>地形</lable>
+                                             <input type="text" placeholder="请输入单行内容" />
+                                         </td>
+                                     </tr>
+                                     <tr>
+                                         <td>
+                                             <lable>道路线性</lable>
+                                             <input type="text" placeholder="请输入单行内容" />
+                                         </td>
+                                         <td>
+                                              <lable>路口路段类型</lable>
+                                             <input type="text" placeholder="请输入单行内容" />
+                                         </td>
+                                         <td>
+                                              <lable>道路物理隔离</lable>
+                                             <input type="text" placeholder="请输入单行内容" />
+                                         </td>
+                                     </tr>
+                                     <tr>
+                                         <td>
+                                             <lable>路面结构</lable>
+                                             <input type="text" placeholder="请输入单行内容" />
+                                         </td>
+                                         <td>
+                                              <lable>中央隔离设施</lable>
+                                             <input type="text" placeholder="请输入单行内容" />
+                                         </td>
+                                         <td>
+                                              <lable>路测防护设施</lable>
+                                             <input type="text" placeholder="请输入单行内容" />
+                                         </td>
+                                     </tr> 
+                                     <tr>
+                                         <td>
+                                             <lable>道路安全属性</lable>
+                                             <input type="text" placeholder="请输入单行内容" />
+                                         </td>
+                                         <td>
+                                             <lable>道路隐患督办等级</lable>
+                                             <input type="text" placeholder="请输入单行内容" />
+                                         </td>
+                                         <td>
+                                             <lable>发生地所属中队</lable>
+                                             <input type="text" placeholder="请输入单行内容" />
+                                         </td>
+                                     </tr>
+                                     <tr>
+                                         <td colspan="3">
+                                             <lable>初次录入时间</lable>
+                                             <input style="width:488px;" type="text" placeholder="请输入单行内容" />
+                                         </td>
+                                     </tr>
+                                 </table>
+         
+                                <table>
+                                 <tr>
+                                    <td style="background:#fff; padding-left:10px;" colspan="3">人员信息</td>
+                                 </tr>
+                                 <tr>
+                                     <td>
+                                         <lable>人员编号</lable>
+                                         <input type="text" placeholder="请输入单行内容" />
+                                     </td>
+                                     <td>
+                                          <lable>姓名/单位名称</lable>
+                                         <input type="text" placeholder="请输入单行内容" />
+                                     </td>
+                                     <td>
+                                          <lable>性别</lable>
+                                         <input type="text" placeholder="请输入单行内容" />
+                                     </td>
+                                 </tr>
+                                 <tr>
+                                     <td>
+                                         <lable>年龄</lable>
+                                         <input type="text" placeholder="请输入单行内容" />
+                                     </td>
+                                     <td>
+                                          <lable>省份证号/驾驶证号</lable>
+                                         <input type="text" placeholder="请输入单行内容" />
+                                     </td>
+                                     <td>
+                                          <lable>户籍行政区域</lable>
+                                         <input type="text" placeholder="请输入单行内容" />
+                                     </td>
+                                 </tr>
+                                 <tr>
+                                     <td>
+                                         <lable>户口性质</lable>
+                                         <input type="text" placeholder="请输入单行内容" />
+                                     </td>
+                                     <td>
+                                          <lable>人员类型</lable>
+                                         <input type="text" placeholder="请输入单行内容" />
+                                     </td>
+                                     <td>
+                                          <lable>交通方式</lable>
+                                         <input type="text" placeholder="请输入单行内容" />
+                                     </td>
+                                 </tr>
+                                 <tr>
+                                     <td>
+                                         <lable>驾证种类 </lable>
+                                         <input type="text" placeholder="请输入单行内容" />
+                                     </td>
+                                     <td>
+                                          <lable>驾驶档案编号</lable>
+                                         <input type="text" placeholder="请输入单行内容" />
+                                     </td>
+                                     <td>
+                                          <lable>驾龄</lable>
+                                         <input type="text" placeholder="请输入单行内容" />
+                                     </td>
+                                 </tr>
+                                 <tr>
+                                     <td>
+                                         <lable>初次领证日期</lable>
+                                         <input type="text" placeholder="请输入单行内容" />
+                                     </td>
+                                     <td>
+                                          <lable>准驾车型</lable>
+                                         <input type="text" placeholder="请输入单行内容" />
+                                     </td>
+                                     <td>
+                                          <lable>政治面貌</lable>
+                                         <input type="text" placeholder="请输入单行内容" />
+                                     </td>
+                                 </tr>
+                                 <tr>                 
+                                    <td colspan="3">
+                                         <lable>主要违法行为</lable>
+                                         <input style="width:485px;" type="text" placeholder="请输入单行内容"/>
+                                    </td>
+                                 </tr>
+                                 <tr>                 
+                                    <td colspan="3">
+                                         <lable>违法行为一</lable>
+                                         <input style="width:485px;" type="text" placeholder="请输入单行内容"/>
+                                    </td>
+                                 </tr>
+                                 <tr>                 
+                                    <td colspan="3">
+                                         <lable>违法行为二</lable>
+                                         <input style="width:485px;" type="text" placeholder="请输入单行内容"/>
+                                    </td>
+                                 </tr>
+                                 <tr>
+                                     <td>
+                                         <lable>事故责任</lable>
+                                         <input type="text" placeholder="请输入单行内容" />
+                                     </td>
+                                     <td>
+                                          <lable>伤害程度</lable>
+                                         <input type="text" placeholder="请输入单行内容" />
+                                     </td>
+                                     <td>
+                                          <lable>受伤部位</lable>
+                                         <input type="text" placeholder="请输入单行内容" />
+                                     </td>
+                                 </tr>
+                                 <tr>
+                                     <td>
+                                         <lable>致死原因</lable>
+                                         <input type="text" placeholder="请输入单行内容" />
+                                     </td>
+                                     <td>
+                                          <lable>死亡时间</lable>
+                                         <input type="text" placeholder="请输入单行内容" />
+                                     </td>
+                                     <td>
+                                          <lable>乘坐车辆的驾驶人编号</lable>
+                                         <input type="text" placeholder="请输入单行内容" />
+                                     </td>
+                                 </tr>
+                                 <tr>
+                                     <td>
+                                         <lable>血液酒精含量</lable>
+                                         <input type="text" placeholder="请输入单行内容" />
+                                     </td>
+                                     <td>
+                                          <lable>行人状态</lable>
+                                         <input type="text" placeholder="请输入单行内容" />
+                                     </td>
+                                     <td>
+                                          <lable>行人速度</lable>
+                                         <input type="text" placeholder="请输入单行内容" />
+                                     </td>
+                                 </tr>
+                                 <tr>
+                                     <td>
+                                         <lable>安全带头盔使用情况</lable>
+                                         <input type="text" placeholder="请输入单行内容" />
+                                     </td>
+                                     <td colspan="2">
+                                          <lable>驾校</lable>
+                                         <input style="width:318px;" type="text" placeholder="请输入单行内容" />
+                                     </td>                 
+                                 </tr>
+
+                                 <tr>
+                                 <td style="background:#fff; padding-left:10px;" colspan="3">机动车信息</td>
+                                 </tr>
+                                 <tr>
+                                     <td>
+                                         <lable>车辆类型</lable>
+                                         <input type="text" placeholder="请输入单行内容"/>
+                                     </td>
+                                     <td>
+                                         <lable>号牌种类</lable>
+                                         <input type="text" placeholder="请输入单行内容"/>
+                                     </td>
+                                     <td>
+                                         <lable>号牌号码</lable>
+                                         <input type="text" placeholder="请输入单行内容"/>
+                                     </td>
+                                                       
+                                 </tr>
+                                 <tr>
+                                     <td>
+                                         <lable>车辆品牌</lable>
+                                         <input type="text" placeholder="请输入单行内容"/>
+                                     </td>
+                                     <td>
+                                         <lable>车辆型号</lable>
+                                         <input type="text" placeholder="请输入单行内容"/>
+                                     </td> 
+                                     <td>
+                                         <lable>所有人</lable>
+                                         <input type="text" placeholder="请输入单行内容"/>
+                                     </td>  
+                                 </tr>
+                                 <tr>
+                                     <td>
+                                         <lable>核载量(千克/人)</lable>
+                                         <input type="text" placeholder="请输入单行内容"/>
+                                     </td>
+                                     <td>
+                                         <lable>核载数(千克/人)</lable>
+                                         <input type="text" placeholder="请输入单行内容"/>
+                                     </td> 
+                                     <td>
+                                         <lable>第三者责任强制保险</lable>
+                                         <input type="text" placeholder="请输入单行内容"/>
+                                     </td>  
+                                 </tr> 
+                                 <tr>
+                                     <td>
+                                         <lable>车辆类型1</lable>
+                                         <input type="text" placeholder="请输入单行内容"/>
+                                     </td>
+                                     <td>
+                                         <lable>号牌种类1</lable>
+                                         <input type="text" placeholder="请输入单行内容"/>
+                                     </td>
+                                    <td><label for="">号牌号码1</label>
+                                    <input type="text" placeholder="请输入单行内容"/></td>
+                                </tr>
+                                <tr>
+                                     <td>
+                                         <lable>核载量1(千克/人)</lable>
+                                         <input type="text" placeholder="请输入单行内容"/>
+                                     </td>
+                                     <td>
+                                         <lable>核载数1(千克/人)</lable>
+                                         <input type="text" placeholder="请输入单行内容"/>
+                                     </td> 
+                                     <td>
+                                         <lable>车辆合法状态</lable>
+                                         <input type="text" placeholder="请输入单行内容"/>
+                                     </td>  
+                                 </tr> 
+                                 <tr>
+                                     <td>
+                                         <lable>车辆安全状况</lable>
+                                         <input type="text" placeholder="请输入单行内容" />
+                                     </td>
+                                     <td>
+                                          <lable>行驶状态</lable>
+                                         <input type="text" placeholder="请输入单行内容" />
+                                     </td>
+                                     <td>
+                                          <lable>车辆使用性质</lable>
+                                         <input type="text" placeholder="请输入单行内容" />
+                                     </td>
+                                 </tr>
+                                 <tr>
+                                     <td>
+                                         <lable>在碰撞中角色</lable>
+                                         <input type="text" placeholder="请输入单行内容" />
+                                     </td>
+                                     <td>
+                                          <lable>车辆变速器档位</lable>
+                                         <input type="text" placeholder="请输入单行内容" />
+                                     </td>
+                                     <td>
+                                          <lable>车辆转向灯状态</lable>
+                                         <input type="text" placeholder="请输入单行内容" />
+                                     </td>
+                                 </tr>
+                                 <tr>
+                                     <td>
+                                         <lable>车辆照明灯状态</lable>
+                                         <input type="text" placeholder="请输入单行内容" />
+                                     </td>
+                                     <td>
+                                          <lable>车辆安全气囊状态</lable>
+                                         <input type="text" placeholder="请输入单行内容" />
+                                     </td>
+                                     <td>
+                                          <lable>保险公司</lable>
+                                         <input type="text" placeholder="请输入单行内容" />
+                                     </td>
+                                 </tr> 
+                                 <tr>
+                                     <td>
+                                         <lable>公路客运区间里程</lable>
+                                         <input type="text" placeholder="请输入单行内容" />
+                                     </td>
+                                     <td>
+                                         <lable>公路客运运营方式</lable>
+                                         <input type="text" placeholder="请输入单行内容" />
+                                     </td>
+                                     <td>
+                                         <lable>保险凭证号</lable>
+                                         <input type="text" placeholder="请输入单行内容" />
+                                     </td>
+                                 </tr>
+                                 <tr>
+                                     <td>
+                                         <lable>运载危险物品种类 </lable>
+                                         <input type="text" placeholder="请输入单行内容" />
+                                     </td>
+                                     <td>
+                                         <lable>有无危险运输许可证</lable>
+                                         <input type="text" placeholder="请输入单行内容" />
+                                     </td>
+                                     <td>
+                                         <lable>危险品运输从业资格</lable>
+                                         <input type="text" placeholder="请输入单行内容" />
+                                     </td>
+                                 </tr>
+                             </table>
+                          </div>
+                          
+                      </div>
+                      <img class="arrow-right" src="../images/arrow-left.png" height="39" width="24" alt="" />
+                      <div class="line1">  
+                        <img id="close1" src="../images/cha.png" >
+                      </div>
+                      <div class="line2">  
+                        <span class="close" id="close2" ><img src="../images/save.png"/> 编辑</span>
+                        <span class="close" id="close3" ><img src="../images/save.png"/> 保存</span>
+                        <span class="close" id="close3" >取消</span>
+                      </div>  
+                    </div>
+                   
+                  </td>   
+                </tr>  
+                
+
+                <tr>
+                  <td>1234</td>
+                  <td>李月</td>
+                  <td>贾子峰</td>
+                  <td>2017-02-01</td>
+                  <td>石家庄</td>
+                  <td>10张<img src="../images/up.png"></td>
+                  <td>查看 | 操作</td>                
+                </tr> 
+                  
+              </tbody>
+            </table>
+            <div class="eg">
+                        <div class="M-box"></div>
+                        <span class="now" style="display:none;">1</span>
+            </div>
+        </div>
+    </body>
+    <script type="text/javascript" src="../js/jquery-1.10.2.js"></script>
+   <script type="text/javascript" src="js/js.js"></script>
+   <script src="../js/script/jquery.pagination.js"></script>
+<script type="text/javascript">
+  $(function(){
+    $('.M-box').pagination({
+        pageCount:50,
+        jump:true,
+        coping:true,
+        homePage:'首页',
+        endPage:'末页',
+        prevContent:'上页',
+        nextContent:'下页',
+        callback:function(api){
+          $('.now').text(api.getCurrent());
+             }//callback functions  结束
+     },function(api){
+                    $('.now').text(api.getCurrent());
+                   
+                });
+ });//分页  functions 结束
+</script>
+</html>

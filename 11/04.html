@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/04.css">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body style="background:#fff;">
+    <div class="ck"><span class="top11 top1">管理员列表</span></div>
+    <div class="ck"><span class="top11" id="tianjia">添加管理员</span></div>
+    <div class="shuaxin"><img src="../images/shuaxin.png" height="41" width="42" /></div>
+    <div class="main">
+        <table width="100%" border="0" cellspacing="1" cellpadding="0">
+            <thead>
+                <tr>
+                    <th>编号</th>
+                    <th>帐号</th>
+                    <th>姓名</th>
+                    <th>电话</th>
+                    <th>最后登陆时间</th>
+                    <th>登录次数</th>
+                    <th>帐号类型</th>
+                    <th>操作</th>
+                </tr>
+            </thead>
+            <tbody id="listBox">
+                <tr v-for='item in items'>
+                    <td>{{item.num}}</td>
+                    <td>{{item.user.account}}</td>
+                    <td>{{item.user.userName}}</td>
+                    <td>{{item.user.phone}}</td>
+                    <td>{{item.user.lastLogin}}</td>
+                    <td>{{item.user.num}}</td>
+                    <td v-if="item.user.state == 1" >
+                        APP
+                    </td>
+                    <td v-else-if="item.user.state == 2">
+                        后台
+                    </td>
+                    <td v-else-if="item.user.state == 3">
+                        全部
+                    </td>
+                    <td>编辑|分配权限</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="tianjia">
+        <div class="line1">添加管理员帐号
+            <img id="close1" src="../images/cha.png">
+        </div>
+        <div class="line2">帐号
+            <input type="text" placehoder="单行输入" id="text1" />
+        </div>
+        <div class="line2">密码
+            <input type="text" placehoder="单行输入" id="text2"/>
+        </div>
+        <div class="line2">姓名
+            <input type="text" placehoder="单行输入" id="text3"/>
+        </div>
+        <div class="line2">手机号
+            <input type="text" placehoder="单行输入" id="text4"/>
+        </div>
+        <div class="line2">身份证号
+            <input type="text" placehoder="单行输入" id="text5"/>
+        </div>
+        <div class="line2">警号
+            <input type="text" placehoder="单行输入" id="text6"/>
+        </div>
+        <div class="line3">
+            <button id="close2" type="">关闭</button>
+            <button id="close3" type="">添加</button>
+        </div>
+    </div>
+    <div id="quanxian">
+        
+
+    </div>
+</body>
+<script src="../js/jquery-1.10.2.js"></script>
+<script src="../js/vue.min.js?v=1.0.0"></script>
+<script src="../js/common/utility.js "></script>
+<script src="../js/common/config.js "></script>
+<script src="../js/layer/mobile/layer.js"></script>
+<script src="../js/11-04.js"></script>
+<script>
+$(document).ready(function($) {
+    $(".tianjia").hide();
+    $("#tianjia").click(function(event) {
+        $(".tianjia").show();
+    });
+    $("#close1,#close2,#close3").click(function(event) {
+        $(".tianjia").hide();
+    });
+
+});
+</script>
+
+</html>

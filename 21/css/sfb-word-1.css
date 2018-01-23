@@ -1,0 +1,531 @@
+/* 
+* @Author: anchen
+* @Date:   2017-03-20 16:44:03
+* @Last Modified by:   Marte
+* @Last Modified time: 2017-04-11 10:15:50
+*
+* /* CSS Document */
+*:focus { outline: none; } 
+input {outline:none;}
+*{ font-size:14px; font-family:"微软雅黑";}
+textarea{
+    resize : none;
+    padding:0;
+    margin:0;
+    /*overflow:auto;
+    background:transparent;
+    background-attachment:fixed;
+    background-repeat:no-repeat;
+    border-style:solid; 
+ 
+    border-color:#FFFFFF*/
+}
+.fl{float:left;}
+.fr{float:right;}
+
+ul{padding:0;}
+dl{margin:0;}
+img{border:none;}
+dd{padding:0; margin:0;}
+body{margin:0;width:100%;}
+a{text-decoration:none !important; }
+li{list-style:none;}
+.clearfix:after, .clearfix:before{  display: table;
+    content: " ";
+}
+
+table { 
+ border-collapse:collapse; 
+ border-spacing:0; 
+} 
+th,td { 
+ padding: 0; 
+}
+input{
+    padding:0;
+    margin:0;
+    display:inline-block;
+    border:2px solid #4D90BB;
+    background:#4D90FE;
+   /* border:1px solid #4D90BB;
+    color: #666;*/
+    /*height:19px;*/
+    
+
+    font-family:Arial,sans-serif,Tahoma; 
+   }
+
+/*公共的*/
+/*==============交通事故审批 1-1==============*/
+.sfb-main-01{
+    width:596px;
+    height: 842px;
+    background: url(../img/jts-1.jpg) no-repeat;
+}
+.jts-01{
+    width: 295px;
+    margin: 74px 0 0 121px;
+}
+.jts-02{
+    width: 80px;
+    margin: 67px 0 0 72px;
+}
+.jts-03{
+    width: 46px;
+    margin: 10px 0 0 121px;
+}
+.jts-04{
+    width: 20px;
+    margin: 10px 0 0 14px;
+}
+.jts-05{
+    width: 20px;
+    margin: 10px 0 0 10px;
+}
+.jts-06{
+    width: 20px;
+    margin: 10px 0 0 12px;
+}
+.jts-07{
+    width: 20px;
+    margin: 10px 0 0 12px;
+}
+.jts-08{
+    width: 38px;
+    margin: 10px 0 0 29px;
+}
+.jts-09{
+    width: 20px;
+    margin: 10px 0 0 11px;
+}
+.jts-10 {
+    width: 455px;
+    margin: 17px 0px 0 121px;
+}
+.jts-11 {
+    width: 146px;
+    margin: 54px 0 0 90px;
+}
+.jts-12 {
+    width: 186px;
+    margin: 54px 0 0 105px;
+}
+.jts-13 {
+    /*width: 186px;*/
+    margin: 24px 0 0 229px;
+}
+.jts-14 {
+    /*width: 186px;*/
+    margin: 20px 0 0 47px;
+}
+.jts-15 {
+    width: 201px;
+    margin: 0px 0 0 31px;   
+}
+.jts-16 {
+    margin: 22px 0 0 133px;    
+}
+.jts-17 {
+    width:173px;   
+    margin: 0px 0 0 154px;    
+}
+.jts-18 {
+    width: 250px;
+    margin: 0px 0 0 77px;    
+}
+.jts-19{
+margin: 23px 0 0 101px;
+}
+.jts-20{
+    margin-left: 46px;
+}
+.jts-21{
+    margin:23px 0 0 101px;
+}
+.jts-22{
+    margin-left: 48px;
+}
+.jts-23{
+    margin-left: 47px;
+}
+.jts-24{
+    margin:23px 0 0 101px;
+}
+.jts-25{
+    margin-left: 190px;
+}
+.txt-01{
+    height:63px;
+    width:395px;
+    margin-left: 175px;
+    margin-top: 15px;
+}
+.jts-26{
+    height:15px;
+    width:104px;
+    margin-top: 25px;
+    margin-left: 164px;
+}
+.jts-27{
+    width:200px;
+    margin-left: 97px;
+}
+.jts-28{
+    width:40px;
+    height:13px;
+    margin-top:42px;
+    margin-left: 85px;
+}
+.jts-29{
+    width:40px;
+    height:13px;
+    margin-top: 3px;
+    margin-left: 85px;
+}
+.jts-30{
+    width:225px;
+    margin-top: 24px;
+    margin-left: 158px;
+}
+.jts-31{
+    width:98px;
+    margin-left: 86px;
+}
+.jts-32{
+    width:380px;
+    margin-top: 8px;
+    margin-left: 195px;
+}
+/*======
+=============道路交通事故处理通知书=======
+====*/
+.sfb-main-02{
+    width:596px;
+    height: 842px;
+    background: url(../img/jts-2.jpg) no-repeat;
+}
+.a-01{
+    width:202px;
+    margin:176px 0 0 102px;
+}
+.a-02{
+    margin-top: 20px;
+    margin-left: 61px;
+}
+.a-03{
+    width: 65px;
+    margin-top: 66px;
+    margin-left: 340px;
+}
+.a-04{
+    width: 21px;
+    margin-left: 20px;
+}
+.a-05{
+    width: 21px;
+    margin-left:14px;
+}
+.a-06{
+    width: 121px;
+    margin-top: 20px;
+    margin-left:174px;
+}
+.a-07{
+    height:17px;
+    margin-top: 5px;
+    margin-left: 217px;
+}
+/*======
+=============道路交通事故尸体处理通知书=======
+====*/
+.sfb-main-03{
+    width:596px;
+    height: 842px;
+    background: url(../img/jts-3.jpg) no-repeat;
+}
+.b-01{
+    width:52px;
+    margin:132px 0 0 275px;
+}
+.b-02{
+    margin: 62px 40px 0 109px;
+    width: 202px;
+}
+.b-03{
+    width:153px;
+    margin:53px 0 0 80px;
+}
+.b-04{
+    width: 48px;
+    margin: 19px 0 0 171px;
+}
+.b-05{
+    margin: 0 0 0 12px;
+    width: 44px;
+}
+.b-06{
+    margin: 0 0 0 10px;
+    width: 44px;
+}
+.b-07{
+    padding:0;
+    margin:0;
+    width:441px;
+    height:212px;
+    margin-top: 58px;
+    margin-left: 76px;
+}
+.b-08{
+    width:40px;
+    margin:122px 0 0 367px;
+}
+.b-09{
+    width: 22px;
+    margin: 0px 0 0 14px;
+}
+.b-10{
+    width: 22px;
+    margin: 0px 0 0 14px;
+}
+/*===
+===道路交通证明-事故审批
+jts-4===
+======*/
+.sfb-main-04{
+    width:596px;
+    height: 842px;
+    background: url(../img/jts-4.jpg) no-repeat;
+}
+.c-01{
+    width: 275px;
+    margin: 80px 0 0 168px;
+}
+.c-02{
+    width: 50px;
+    margin: 42px 60px 0 281px;
+}
+.c-03{
+
+}
+
+/*===
+===道路交通证明-事故审批
+jts-5===
+======*/
+.sfb-main-05{
+    width:596px;
+    height: 842px;
+    background: url(../img/jts-5.jpg) no-repeat;
+}
+.d-01{
+    width: 252px;
+    margin: 32px 0 0 191px;
+}
+.d-02{
+    width: 52px;
+    margin: 43px 0 0 161px;
+}
+.d-03{
+    width: 15px;
+    margin: 43px 0 0 82px;
+}
+.d-04{
+    width: 59px;
+    margin: 43px 0 0 17px;
+}
+.t-d-01{
+    width:385px;
+    height: 43px;
+    margin: 17px 0 0 168px;
+}
+.t-d-02{
+    width:385px;
+    height: 40px;
+    margin: 6px 0 0 168px;
+}
+.t-d-03{
+    width:500px;
+    height: 150px;
+    margin: 32px 0 0 49px;
+}
+.t-d-04{
+     width:500px;
+    height: 200px;
+    margin: 45px 0 0 49px;
+}
+.d-05{
+    width: 50px;
+    margin: 88px 0 0 307px;
+}
+.d-06{
+    width: 37px;
+    margin: 88px 0 0 18px;
+}
+.d-07{
+    width: 37px;
+    margin: 88px 0 0 17px;
+}
+/*======
+====道路交通事故认定不予受理通知书==
+===========*/
+.sfb-sp-01{
+    width:596px;
+    height: 842px;
+    background: url(../img/sp-buyushouli.jpg) no-repeat;
+}
+.sp-1-01{
+    width:252px;
+    margin: 72px 0 0 182px;
+}
+.sp-1-02{
+    width:22px;
+    margin: 48px 0 0 182px;
+}
+.sp-1-03{
+    width: 14px;
+    margin: 0px 0 0px 82px;
+}
+.sp-1-04{
+    width: 105px;
+    margin: 0px 0 0px 18px;
+}
+.sp-1-05{
+    width:210px;
+    margin: 56px 0 0px 63px;
+}
+.sp-1-08{
+    line-height: 37px;
+    margin-top: 82px;
+    margin-left: 60px;   
+}
+.sp-1-06{
+    width:50px;
+    margin:239px 0 0 347px;
+}
+.sp-1-07{
+    width:22px;
+    margin: 0px 0 0 20px;
+}
+.sp-1-09{
+     width:25px;
+     margin: 0px 0 0 20px;
+}
+/*======= 
+==-----  道路交通事故认定复合受理通知书=
+========*/
+.sfb-sp-02{
+    width:596px;
+    height: 842px;
+    background: url(../img/sp-fuheshipi.jpg) no-repeat;
+}
+.sp-2-01{
+    width: 214px;
+    margin: 222px 0 0 62px;
+}
+.sp-2-02{
+    width:336px;
+    margin:54px 0 0 186px;
+}
+.sp-2-03{
+    width:441px;
+    height:60px;
+    line-height: 28px;
+    margin: 15px 0 0 85px;
+}
+.sp-2-04{
+    width:50px;
+    margin:350px 0 0 336px;
+}
+.sp-2-05{
+    width:27px;
+    margin:0 0 0 22px;
+}
+.sp-2-06{
+    width:28px;
+    margin:0 0 0 16px;
+}
+/*-=======
+==============复核结论=====
+=========*/
+.sfb-sp-03{
+    width:596px;
+    height: 842px;
+    background: url(../img/sp-fuhejielun.jpg) no-repeat;
+}
+.sp-3-01{    
+    width:460px;
+    height:97px;
+    margin:174px 0 0 66px;
+}
+.sp-3-02{   
+    width:460px;
+    height:162px; 
+    margin:46px 0 0 66px;
+}
+.sp-3-03{ 
+    width:460px;
+    height:129px;   
+    margin:59px 0 0 66px;
+}
+.sp-3-04{    
+    width:50px;
+    margin:20px 0 0 339px;
+}
+.sp-3-05{    
+    width: 24px;
+    margin: 15px 0 0 20px;
+}
+.sp-3-06{    
+    width: 24px;
+    margin: 15px 0 0 14px;
+}
+/*======
+========实践检验====
+========*/
+.sfb-sp-03{
+    width:596px;
+    height: 842px;
+    background: url(../img/sp-fuhejielun.jpg) no-repeat;
+}
+.sp-4-01{    
+    margin:174px 0 0 66px;
+}
+.sp-4-02{    
+    margin:41px 0 0 66px;
+}
+.sp-4-04{    
+    margin:41px 0 0 66px;
+}
+.sp-3-04{    
+    width:50px;
+    margin:15px 0 0 339px;
+}
+.sp-3-05{    
+    width: 24px;
+    margin: 27px 0 0 20px;
+    -moz-margin:30px 0 0 20px;
+}
+.sp-3-06{    
+    width: 24px;
+    margin: 15px 0 0 14px;
+}
+
+
+/* 1-5  调查报告书审核 */
+
+
+.sfb-main-51{
+    width:596px;
+    height: 842px;
+    background: url(../img/5-1.jpg) no-repeat;
+}
+.sfb-main-52{
+    width:596px;
+    height: 842px;
+    background: url(../img/5-2.jpg) no-repeat;
+}
+.sfb-main-53{
+    width:596px;
+    height: 842px;
+    background: url(../img/5-3.jpg) no-repeat;
+}

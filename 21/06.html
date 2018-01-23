@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/06.css">
+
+    </head>
+    <body>
+        <div class="top">
+            <div class="ck"><span class="top11">支队审核文件</span></div>
+            <div class="refresh"><img src="../images/shuaxin.png" height="41" width="42"/></div>
+        </div>
+        <div class="select">
+            <span>筛选：</span>
+            <input class="text-in" type="text" placehoder="单行输入...">
+            <select class="select-in" >
+                <option value="">自动识别</option>
+                <option value="">车牌号</option>
+                <option value="">车架号</option>
+                <option value="">案件号</option>
+                <option value="">姓名</option>
+            </select>
+            <span class="search">查询</span>
+        </div>
+        <div class="main21">
+             <table width="95%">
+              <thead>
+                <tr>
+                  <th>案件号</th>
+                  <th>报警人</th>
+                  <th class="name">接警人</th>
+                  <th>报警时间</th>
+                  <th>报警电话</th>
+                  <th>住址</th>
+                  <th>报警内容</th>
+                  <th>审批</th>
+                  <th>查看登记表</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>1234</td>
+                  <td>李月</td>
+                  <td>贾子峰</td>
+                  <td>2017-02-01</td>
+                  <td>152789456654</td>
+                  <td>石家庄石家庄石家庄石家庄</td>
+                  <td>石家庄世家石家庄石家庄石家庄石家庄</td>
+                  <td id="tianjia">查看</td>
+                  <td>查看|操作</td>                 
+                </tr>
+                <tr class="tianjia">  
+                  <td  class="chakan" colspan="9" valign="top">
+                    <div class="line1">
+                      <img id="close1" src="../images/cha.png" >
+                    </div>
+                    <div class="line2">  
+                      <span class="close" id="close2" ><img src="../images/save.png"/> 编辑</span>
+                      <span class="close" id="close3" ><img src="../images/save.png"/> 保存</span>
+                      <span class="close" id="close3" >取消</span>
+                    </div>
+                    <div class="line3">
+                       <input class="input1" type="text" />
+                       <input class="input2" type="text" />
+                       <input class="input3" type="text" />
+                    </div>
+
+                    </td>   
+                </tr>  
+                 <tr>
+                  <td>1234</td>
+                  <td>李月</td>
+                  <td>贾子峰</td>
+                  <td>2017-02-01</td>
+                  <td>152789456654</td>
+                  <td>石家庄石家庄石家庄石家庄</td>
+                  <td>石家庄世家石家庄石家庄石家庄石家庄</td>
+                  <td>查看</td>
+                  <td>查看|操作</td>                 
+                </tr>
+                  <tr>
+                  <td>1234</td>
+                  <td>李月</td>
+                  <td>贾子峰</td>
+                  <td>2017-02-01</td>
+                  <td>152789456654</td>
+                  <td>石家庄石家庄石家庄石家庄</td>
+                  <td>石家庄世家石家庄石家庄石家庄石家庄</td>
+                  <td>查看</td>
+                  <td>查看|操作</td>                 
+                </tr>
+              </tbody>
+            </table>
+        </div>
+    </body>
+    <script type="text/javascript" src="../js/jquery-1.10.2.js"></script>
+    <script>
+    $(document).ready(function($) {
+         $(".tianjia").hide();
+        $("#tianjia").click(function(event) {
+            $(".tianjia").show();
+        });
+        $("#close1,#close2,#close3").click(function(event) {
+            $(".tianjia").hide();
+        });
+
+    });
+    
+    </script>
+</html>

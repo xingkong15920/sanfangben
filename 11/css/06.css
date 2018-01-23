@@ -1,0 +1,18 @@
+/* 
+* @Author: Marte
+* @Date:   2017-04-10 14:56:00
+* @Last Modified by:   Marte
+* @Last Modified time: 2017-04-10 14:56:13
+*/
+ .main{
+        margin-top: 15px;
+        border-top:1px solid #ccc;
+        border-bottom:1px solid #ccc;
+        margin-left: 30px;
+        width:79%;
+    }
+   
+    .top11{display:block;float:left;  margin-top:30px; margin-right:20px ;background-color:#D4D4D4; line-height:30px; padding:0 10px;color:#ffffff;}
+    .check{background:#2BAF2B;}
+    .ck{width:79%; border-bottom:1px solid #ccc;height:75px;margin-left: 30px;margin-right:30px ;}
+    .shuaxin{float:right;    margin-right: 240px;margin-top: -50px;}

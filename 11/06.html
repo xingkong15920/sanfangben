@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="../css/style.css">
+        <link rel="stylesheet" href="css/06.css">
+    </head>
+    <body style="background:#fff;">
+        <div class="ck">
+            <span class="top11" id="top11-first">用户统计</span>
+            <span class="top11">商家统计</span>
+            <span class="top11">活动订单统计</span>
+            <span class="top11">商家订单统计</span>
+        </div>
+        <div class="shuaxin"><img src="../images/shuaxin.png" height="41" width="42"/></div>
+       
+     
+    </body>
+    <script src="../js/jquery-1.10.2.js" ></script>
+    <script>
+    $(document).ready(function($) {
+          $("#top11-first").addClass('check');  
+         $('.ck .top11').click(function() {
+            var i = $(this).index();//下标第一种写法
+            //var i = $('tit').index(this);//下标第二种写法
+            $(this).addClass('check').siblings().removeClass('check');
+           // $('.meduo6 .right-content').eq(i).show().siblings().hide();
+    });
+ });
+    </script>
+</html>

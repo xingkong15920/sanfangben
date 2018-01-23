@@ -1,0 +1,43 @@
+/* 
+* @Author: Marte
+* @Date:   2017-04-10 14:51:33
+* @Last Modified by:   Marte
+* @Last Modified time: 2017-04-10 14:54:22
+*/
+.main{
+        margin-top: 15px;
+        border:1px solid #ccc;
+        margin-left: 30px;
+        width:79%;
+
+    }
+    .ck p{ font-size:14px; color:#ffffff; margin:0; height:60px;}
+    .ck p span{ position:absolute; top:30px; left:30px; background-color:#5C6BC0; line-height:30px; padding:0 10px;}
+    .ck{clear:both;}
+    .change1{
+        font-size: 16px;
+        height:45px;
+        line-height: 45px;
+        padding-left: 40px;
+        border-bottom: 1px solid #ccc;
+    }
+    .arrow-up{
+        margin-left: 11px;
+        margin-bottom: -41px;
+        margin-top: 15px;
+        border:none;
+        width:0px;
+        height:0px;
+        border-left: 30px solid transparent;
+        border-right:30px solid transparent;
+        border-bottom: 30px solid #5C6BC0; 
+        transform:rotate(-45deg);
+        -ms-transform:rotate(-45deg);     /* IE 9 */
+        -moz-transform:rotate(-45deg);    /* Firefox */
+        -webkit-transform:rotate(-45deg); /* Safari 和 Chrome */
+        -o-transform:rotate(-45deg);  /* Opera */
+    }
+    .tijiao{width:114px;height:30px;background:#5C6BC0;border:none;border-radius: 5px;color:#fff;margin-top: 7px;margin-left: 103px;}
+    .change1:last-child{border-bottom: none;}
+    .shuaxin{float:right;    margin-right: 240px;margin-top: -34px;}
+    .change1 img {vertical-align: text-bottom;margin-left: 10px;margin-right: 10px;}

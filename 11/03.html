@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="../css/style.css">
+        <link rel="stylesheet" href="css/03.css">
+    </head>
+    <body style="background:#fff;">
+        <div class="ck"><p><span>修改资料</span></p></d
+
+
+        iv>
+        <div class="shuaxin"><img src="../images/shuaxin.png" height="41" width="42"/></div>
+        <div class="arrow-up"></div>
+        <div class="main">
+             <div class="change1" >登录帐号 :  &nbsp;&nbsp;&nbsp;<span id="dengluzhanghao"></span></div>
+            <div class="change1">真实姓名 : &nbsp;&nbsp;
+                <input class="realname" type="text"  id="realname" />
+                <img class="right1" src="../images/dui.png"  />
+                <img class="wrong1" src="../images/cuo.png"  />
+            </div>
+            <div class="change1">证  件 号&nbsp; : &nbsp;&nbsp;
+                <input class="idnum" type="text"  id="idnum" />
+                <img class="right2" src="../images/dui.png"  />
+                <img class="wrong2" src="../images/cuo.png"  />
+            </div>
+            <div class="change1"> 身份证号 : &nbsp;&nbsp;
+                <input class="idnum2" type="text"  id="idnum2" />
+                <img class="right3" src="../images/dui.png"  />
+                <img class="wrong3" src="../images/cuo.png"  />
+            </div>
+            <div class="change1">手机号码 : &nbsp;&nbsp;
+                <input class="tel" type="text"  id="tel" />
+                <img class="right4" src="../images/dui.png" />
+                <img class="wrong4" src="../images/cuo.png"  />
+            </div>
+            <div class="change1">
+                
+                <button class="tijiao" type="submit" value="提交" id="tijiao" style="cursor:pointer">提交</button>
+            </div>
+        </div>
+    </body>
+<script src="../js/jquery-1.10.2.js"></script>
+<script src="../js/common/utility.js "></script>
+<script src="../js/common/config.js "></script>
+<script src="../js/layer/mobile/layer.js"></script>
+<script src="../js/11-03.js"></script>
+<script>
+$(document).ready(function($) {
+    $(".right1,.wrong1,.right2,.wrong2,.right3,.wrong3,.right4,.wrong4").hide();
+    $(".realname").blur(function(){
+        if($(this).val()==""){
+            $(".wrong1").show();
+            $(".right1").hide();
+        }else{
+            $(".right1").show();
+            $(".wrong1").hide();
+        }
+    });
+    $(".idnum").blur(function(){
+        if($(this).val()==""){
+            $(".wrong2").show();
+            $(".right2").hide();
+        }else{
+            $(".right2").show();
+            $(".wrong2").hide();
+        }
+    });
+   $(".idnum2").blur(function(){
+        if($(this).val().length>13||$(this).val().length<13){
+            $(".wrong3").show();
+            $(".right3").hide();
+        }else{
+            $(".right3").show();
+            $(".wrong3").hide();
+        }
+    });
+   $(".tel").blur(function(){
+        if($(this).val()==""){
+            $(".wrong4").show();
+            $(".right4").hide();
+        }else{
+            $(".right4").show();
+            $(".wrong4").hide();
+        }
+    });
+});
+</script>   
+</html>

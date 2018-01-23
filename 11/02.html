@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="css/02.css">
+</head>
+
+<body style="background:#fff;">
+    <div class="ck">
+        <p><span>修改密码</span></p>
+    </div>
+    <div class="shuaxin"><img src="../images/shuaxin.png" height="41" width="42" /></div>
+    <div class="arrow-up"></div>
+    <div class="main">
+        <div class="change1">原始密码 : &nbsp;&nbsp;
+            <input class="oldpwd" type="password" id="old" />
+        </div>
+        <div class="change1">新设密码 : &nbsp;&nbsp;
+            <input class="newpwd" type="password" id="new" />
+            <span class="must-write"><img src="../images/tanhao.png" height="22" width="22" />必须填</span>
+        </div>
+        <div class="change1">重复密码 : &nbsp;&nbsp;
+            <input class="againpwd" type="password" id="new1" />
+            <span class="must-write1"><img src="../images/tanhao.png" height="22" width="22" />必须填</span>
+        </div>
+        <div class="change1">
+            <input type="button" class="tijiao" value="提交" id="tijiao" style="cursor:pointer">
+        </div>
+    </div>
+</body>
+<script src="../js/jquery-1.10.2.js"></script>
+<script src="../js/common/utility.js "></script>
+<script src="../js/common/config.js "></script>
+<script src="../js/layer/mobile/layer.js"></script>
+<script src="../js/11-02.js"></script>
+<script>
+$(document).ready(function($) {
+    $(".must-write").hide();
+    $(".must-write1").hide();
+    $(".change1 .newpwd").blur(function() {
+        if ($(this).val() == "") {
+            $(".must-write").show();
+        } else {
+            $(".must-write").hide();
+        }
+    });
+    $(".change1 .againpwd").blur(function() {
+        if ($(this).val() == "") {
+            $(".must-write1").show();
+        } else {
+            $(".must-write1").hide();
+        }
+    });
+});
+</script>
+
+</html>

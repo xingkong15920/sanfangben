@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="../css/style.css">
+    </head>
+    <style>
+    .main{
+      
+       
+        margin-left: 30px;
+        width:79%;
+
+    }
+ 
+    .top11{ font-size:14px; color:#ffffff;display:block; margin-left:15px;margin-right: 15px; background-color:#2BAF2B; line-height:30px; padding:0 10px;float:left;}
+   
+    .ck:nth-child(5){margin-left: 5px; float:left;border-right: 0px;margin-top: 30px;height:30px;}
+    .ck:nth-child(1){margin-left: 15px;}
+    .ck{float:left;margin-top: 30px;height:30px;border-right: 1px solid #ccc;}
+    .tijiao{width:114px;height:30px;background:#2BAF2B;border:none;border-radius: 5px;color:#fff;margin-top: 7px;margin-left: 103px;}
+    .change1:last-child{border-bottom: none;}
+    .shuaxin{float:right;    margin-right: 240px;margin-top: 22px;}
+    .change1 img {vertical-align: text-bottom;margin-left: 10px;margin-right: 10px;}
+     table{border-collapse:collapse;border:1px solid #ccc;margin-top: 15px;table-layout:fixed;word-break:break-all;}
+    tr{border:1px solid #ccc;height:45px;}
+    th:first-child{width:50px;}
+    td{border:0px;text-align: center;}
+    table td{background:#fff;}
+    table th{background:#fff;}
+    thead tr th{height:45px;background:#E8E8E8;font-weight:normal;}
+   
+    </style>
+    <body style="background:#fff;">
+        <div class="ck"><span class="top11">全部信息</span></div>
+        <div class="ck"><span class="top11">违规违纪</span></div>
+        <div class="ck"><span class="top11">肇事逃逸</span></div>
+        <div class="ck"><span class="top11">事故伤亡</span></div>
+        <div class="ck"><span class="top11">重大事故</span></div>
+        <div class="shuaxin"><img src="../images/shuaxin.png" height="41" width="42"/></div>
+        <div class="main">
+         <table width="100%" border="0" cellspacing="1" cellpadding="0">
+              <thead>
+                <tr>
+                  <th>案件号</th>
+                  <th>报警人</th>
+                  <th>性别</th>
+                  <th>报警时间</th>
+                  <th>报警电话</th>
+                  <th>警员</th>
+                  <th>归档记录</th>
+                  <th>案件分类</th>
+                  <th>查看详情</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>1</td>
+                  <td>liyue</td>
+                  <td>男</td>
+                  <td>2017-02-01 19:20</td>
+                  <td>152789456654</td>
+                  <td>世俗</td>
+                  <td>完成</td>
+                  <td>违规违纪正常</td>
+                  <td id="tianjia">查看 | 操作</td>                 
+                </tr>
+                 <tr class="tianjia">  
+                    <td  colspan="9" >
+                      <div class="line1">受理道路交通事故案件登记表
+                        <img id="close1" src="../images/cha.png" >
+                      </div>
+                      <div class="line2">帐号 <input type="text" placehoder="单行输入" /></div>
+                      <div class="line2">密码 <input type="text" placehoder="单行输入" /></div>
+                      <div class="line2">姓名 <input type="text" placehoder="单行输入" /></div>
+                      <button id="close2" type="">关闭</button>
+                      <button id="close3" type="">添加</button>
+
+
+                    </td>   
+                </tr>  
+                <tr>
+                  <td>1</td>
+                  <td>liyue</td>
+                  <td>男</td>
+                  <td>2017-02-01 19:20</td>
+                  <td>152789456654</td>
+                  <td>世俗</td>
+                  <td>完成</td>
+                  <td>违规违纪正常</td>
+                  <td>查看 | 操作</td>                 
+                </tr>
+              </tbody>
+            </table>
+        </div>
+    </body>
+    <script type="text/javascript" src="../js/jquery-1.10.2.js"></script>
+    <script>
+    $(document).ready(function($) {
+         $(".tianjia").hide();
+        $("#tianjia").click(function(event) {
+            $(".tianjia").show();
+        });
+        $("#close1,#close2,#close3").click(function(event) {
+            $(".tianjia").hide();
+        });
+
+    });
+    
+    </script>
+</html>

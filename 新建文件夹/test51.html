@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+    </head>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/vue/1.0.16/vue.js"></script>
+    <script src="http://cdn.jsdelivr.net/vue/1.0.7/vue.min.js"></script>
+    <body>
+        <div id="app">
+            <div>{{message.split('').reverse().join('')}}</div>
+            <input type="text" v-model="message"> 
+        </div>
+    </body>
+    <script>
+    new Vue({ 
+        el:'#app',
+        data: {
+             message:'hello vue.js.' 
+         } 
+     });
+    </script>
+</html>

@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/01.css">
+        <link rel="stylesheet" type="text/css" href="../css/style/pagination.css" media="screen">
+        <script src="http://www.jq22.com/jquery/jquery-1.10.2.js"></script>
+        
+        <script src="../js/js.js"></script>
+    </head>
+    <body>
+        <div class="top">
+            <div class="ck"><span class="top11">案件登记</span></div>
+            <div class="refresh"><img src="../images/shuaxin.png" height="41" width="42"/></div>
+        </div>
+        <div class="select">
+            <span>筛选：</span>
+            <input class="text-in" type="text" placehoder="单行输入...">
+            <select class="select-in" >
+                <option value="">案件号</option>
+                <option value="">接警人</option>
+                <option value="">报警时间</option>
+            </select>
+            <span class="search">查询</span>
+        </div>
+        <div class="main21">
+             <table width="95%">
+              <thead>
+                <tr>
+                  <th>案件号</th>
+                  <th>报警人</th>
+                  <th class="name">接警人</th>
+                  <th>报警时间</th>
+                  <th>报警电话</th>
+                  <th>住址</th>
+                  <th>报警内容</th>
+                  <th>审批</th>
+                  <th>查看登记表</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>1234</td>
+                  <td>李月</td>
+                  <td>贾子峰</td>
+                  <td>2017-02-01</td>
+                  <td>152789456654</td>
+                  <td>石家庄石家庄石家庄石家庄</td>
+                  <td>石家庄世家石家庄石家庄石家庄石家庄</td>
+                  <td class="tianjia">查看</td>
+                  <td>查看|操作</td>                 
+                </tr>
+                <tr class="tianjia tian-content">  
+                  <td  class="chakan" colspan="8" valign="top">
+                    <div class="main-center">
+                        <div class="line1">
+                          <img  id="close1" src="../images/cha.png" >
+                        </div>
+                        <div class="line2">  
+                          <span class="close" id="close2" ><img src="../images/save.png"/> 编辑</span>
+                          <span class="close" id="close3" ><img src="../images/save.png"/> 保存</span>
+                          <span class="close" id="close3" >取消</span>
+                        </div>
+                        <div class="line3">
+                           <input class="input0" type="text" />
+                           <input class="input1" type="text" />
+                           <input class="input2" type="text" />
+                           <input class="input2" type="text" />
+                           <input class="input2" type="text" />
+                           <input class="input3" type="text" />
+                           <input class="input3 input4" type="text" />
+                           <input class="input3 input5" type="text" />
+                          <!--  <div class="clear"></div> -->
+                           <input class="input6" type="text" />
+                           <input class="input6" type="text" />
+                           <textarea class="input6 input7" name="" id="" cols="60" rows="12"></textarea>
+                           <input class="input6 input8" type="text" />
+                           <input class="input6" type="text" />
+                        </div>
+                    </div>
+                    </td>   
+                </tr>  
+                 <tr>
+                  <td>1234</td>
+                  <td>李月</td>
+                  <td>贾子峰</td>
+                  <td>2017-02-01</td>
+                  <td>152789456654</td>
+                  <td>石家庄石家庄石家庄石家庄</td>
+                  <td>石家庄世家石家庄石家庄石家庄石家庄</td>
+                  <td>查看</td>
+                  <td>查看|操作</td>                 
+                </tr>
+                  <tr>
+                  <td>1234</td>
+                  <td>李月</td>
+                  <td>贾子峰</td>
+                  <td>2017-02-01</td>
+                  <td>152789456654</td>
+                  <td>石家庄石家庄石家庄石家庄</td>
+                  <td>石家庄世家石家庄石家庄石家庄石家庄</td>
+                  <td>查看</td>
+                  <td>查看|操作</td>                 
+                </tr>
+              </tbody>
+            </table>
+             <div class="eg">
+                        <div class="M-box"></div>
+                        <span class="now" style="display:none;">1</span>
+             </div>
+        </div>
+       
+    </body>
+ 
+    <script type="text/javascript" src="../js/jquery-1.10.2.js"></script>
+    <script type="text/javascript" src="js/js.js"></script>
+    <script src="../js/script/jquery.pagination.js"></script>
+    <script src="../js/common/utility.js "></script>
+    <script src="../js/common/config.js "></script>
+    <script src="../js/layer/mobile/layer.js"></script>
+    <script src="../js/31-01.js"></script>
+    <script>
+
+/* function page(){
+        $.ajax({
+                  url: 'http://192.168.0.201:8080/LejiaApiServer/user/acciRegister/getRecordList',
+                  type: 'get',
+                  dataType: 'json',
+                  async:'false',
+                  data:{ pageNumber:$('.now').text(),pageSize:"2",tiaojian:null},
+                  success:function(data){
+                     console.log(data);
+                     
+                   var htmltxts = [];
+                    for(var i = 0;i<data.list.length;i++){
+                      var htmltxt ='<tr class="jirow">'+
+                       ' <td>'+data.list[i].id +'</td>'+
+                        '<td>'+data.list[i].name +'</td>'+
+                        '<td>'+data.list[i].name +'</td>'+
+                        '<td>'+data.list[i].alarmTime +'</td>'+
+                        '<td>'+data.list[i].tel +'</td>'+
+                        '<td>'+data.list[i].address+'</td>'+
+                        '<td>'+data.list[i].alarmContent +'</td>'+
+                        '<td class="look" onclick="chakan()">查看</td>'+
+                        '<td style="display:none">'+data.list[i].id +'</td>  ' + 
+                        '<td>查看|操作</td>  ' +              
+                     ' </tr>'+
+                     '<tr class="tianjia" style="display:none">'  +
+                      '<td  class="chakan" colspan="8" valign="top">'+
+                        '<div class="main-center">'+
+                            '<div class="line1">'+
+                             ' <img id="close1" src="../images/cha.png" >'+
+                           ' </div>'+
+                            '<div class="line2"> ' +
+                              '<span class="close" id="close2" ><img src="../images/save.png"/> 编辑</span>'+
+                              '<span class="close" id="close3" ><img src="../images/save.png"/> 保存</span>'+
+                              '<span class="close" id="close3" >取消</span>'+
+                            '</div>'+
+                            '<div class="line3">'+
+                               '<input class="input0" type="text" value="'+data.list[i].NO+'" />'+
+                                      '<input class="input1" type="text" value="'+data.list[i].causeReason+'"/>'+
+                                      '<input class="input2" type="text" value="'+data.list[i].caseSource+'"/>'+
+                                      '<input class="input2" type="text" value="'+data.list[i].alarmTime+'"/>'+
+                                      '<input class="input2" type="text" value="'+data.list[i].alarmWay+'"/>'+
+                                      ' <input class="input3" type="text" value="'+data.list[i].name+'"/>'+
+                                      '<input class="input3 input4" type="text" value="'+data.list[i].sex+'"/>'+
+                                      '<input class="input3 input5" type="text" value="'+data.list[i].tel+'"/>'+
+                                      '<input class="input6" type="text" value="'+data.list[i].address+'"/>'+
+                                      '<input class="input6" type="text" value="'+data.list[i].remark+'"/>'+
+                                      '<textarea class="input6 input7" name="" id="" cols="50" rows="12">'+data.list[i].alarmContent+'</textarea>'+
+                                      '<input class="input6 input8" type="text" value="'+data.list[i].accePerOpinion+'"/>'+
+                                      '<input class="input6" type="text" value="'+data.list[i].leaderApproval+'"/>'+
+                            '</div>'+
+                        '</div>'+
+                        '</td> '+  
+                    '</tr> ' 
+                      htmltxts.push(htmltxt);
+                    }
+                    $("tbody").html(htmltxts);
+                  }
+          });
+  
+    };
+    page();*/
+
+
+    $(function(){
+                $('.M-box').pagination({
+                    pageCount:50,
+                    jump:true,
+                    coping:true,
+                    homePage:'首页',
+                    endPage:'末页',
+                    prevContent:'上页',
+                    nextContent:'下页',
+                    callback:function(api){
+                         $('.now').text(api.getCurrent());
+                      /* $.ajax({
+                              url: 'http://192.168.0.201:8080/LejiaApiServer/user/acciRegister/getRecordList',
+                              type: 'get',
+                              async:'false',
+                              dataType: 'json',
+                              data:{ pageNumber:$('.now').text(),pageSize:2,tiaojian:null},
+                              success:function(data){
+                               console.log(data);
+                            
+                             var htmltxts = [];
+                              for(var i = 0;i<data.list.length;i++){
+                                var htmltxt ='<tr class="jirow">'+
+                                 ' <td>'+data.list[i].id +'</td>'+
+                                  '<td>'+data.list[i].name +'</td>'+
+                                  '<td>'+data.list[i].name +'</td>'+
+                                  '<td>'+data.list[i].alarmTime +'</td>'+
+                                  '<td>'+data.list[i].tel +'</td>'+
+                                  '<td>'+data.list[i].address+'</td>'+
+                                  '<td>'+data.list[i].alarmContent +'</td>'+
+                                  '<td class="look" >查看</td>'+
+                                  '<td>查看|操作</td>  ' +              
+                                ' </tr>'+
+                                 '<tr class="tianjia" style="display:none">'  +
+                                  '<td  class="chakan" colspan="8" valign="top">'+
+                                    '<div class="main-center">'+
+                                        '<div class="line1">'+
+                                         ' <img id="close1" src="../images/cha.png" >'+
+                                       ' </div>'+
+                                        '<div class="line2"> ' +
+                                          '<span class="close" id="close2" ><img src="../images/save.png"/> 编辑</span>'+
+                                          '<span class="close" id="close3" ><img src="../images/save.png"/> 保存</span>'+
+                                          '<span class="close" id="close3" >取消</span>'+
+                                        '</div>'+
+                                '<div class="line3">'+
+                                      '<input class="input0" type="text" value="'+data.list[i].NO+'" />'+
+                                      '<input class="input1" type="text" value="'+data.list[i].causeReason+'"/>'+
+                                      '<input class="input2" type="text" value="'+data.list[i].caseSource+'"/>'+
+                                      '<input class="input2" type="text" value="'+data.list[i].alarmTime+'"/>'+
+                                      '<input class="input2" type="text" value="'+data.list[i].alarmWay+'"/>'+
+                                      ' <input class="input3" type="text" value="'+data.list[i].name+'"/>'+
+                                      '<input class="input3 input4" type="text" value="'+data.list[i].sex+'"/>'+
+                                      '<input class="input3 input5" type="text" value="'+data.list[i].tel+'"/>'+
+                                      '<input class="input6" type="text" value="'+data.list[i].address+'"/>'+
+                                      '<input class="input6" type="text" value="'+data.list[i].remark+'"/>'+
+                                      '<textarea class="input6 input7" name="" id="" cols="50" rows="12">'+data.list[i].alarmContent+'</textarea>'+
+                                      '<input class="input6 input8" type="text" value="'+data.list[i].accePerOpinion+'"/>'+
+                                      '<input class="input6" type="text" value="'+data.list[i].leaderApproval+'"/>'+
+                                        '</div>'+
+                                    '</div>'+
+                                    '</td> '+  
+                                '</tr> ' 
+                    
+                                htmltxts.push(htmltxt);
+                              }//for 
+                    $("tbody").html(htmltxts);
+                  }//sucess
+          });//ajax*/
+       }//callback
+    },function(api){
+                    $('.now').text(api.getCurrent());
+                   
+                });
+});//fenye  function
+
+
+$(document).ready(function($) {
+         /* $("tbody").on("click",".look",function() {
+            var j=$(this).parent().index()+1;
+            $("tbody").children().eq(j).css("display","block");
+           
+          });//查看点击事件结束*/
+   
+           $("tbody").on("click",".close,#close1",function() {
+          /*  alert("guanbi");*/
+            $(".tianjia").css("display","none");
+          });//点击关闭结束
+      });//.ready结束
+
+
+
+ /*$(this).parent().next().css("display","block");*/
+            /*var storage=window.localStorage;
+             storage.setItem("anjian-id",$(this).next().text());
+            //  alert(storage.getItem("singlegoodsid"));
+              $.ajax({
+                  url: 'http://192.168.0.201:8080/LejiaApiServer/user/acciRegister/find',
+                  type: 'get',
+                  dataType: 'json',
+                  data:{  id:storage.getItem("anjian-id")},
+                  success:function(data){
+                     console.log(data);
+                  
+                     
+
+                   }//sucess 结束
+              });//ajax  结束*/
+    </script>
+
+</html>
